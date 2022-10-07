@@ -1,10 +1,10 @@
 # DIRECIONAR
 
-`Analise e desenvolvimento de sistemas'
+Analise e desenvolvimento de sistemas
 
-`Desenvolvimento de Aplicação Web Front-End`
+Desenvolvimento de Aplicação Web Front-End
 
-'EIXO 1'
+EIXO 1
 
 Esse projeto visa criar um website que ajude os jovens a encontrarem a melhor área de acordo com os aspectos em que ele se identifica. A partir do resultado do teste vocacional, iremos apresentar ao usuário informações acerca dos cursos dentro de sua área de aptidão e possibilidades de funções que ele pode exercer no mercado de trabalho.
 
@@ -27,11 +27,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 # Documentação
 
 <ol>
-<li><a href="docs/01-Atualmente, uma das maiores dúvidas entre os jovens entre 17 e 22 anos, é na escolha de qual carreira seguir.
-A maioria desse público se encontra no 3° ano do Ensino Médio e não possuem um direcionamento de carreira para ajudá-lo nessa caminhada.
-Devido a essa dificuldade na escolha de profissão, os jovens acabam escolhendo uma área em que não se identificam, tornando-os insatisfeitos com seu trabalho, e possivelmente desistindo de seus cursos após algum tempo.
-Desta forma, faz-se necessário o autoconhecimento e o conhecimento da área de interesse.
-.md"> Documentação de Contexto</a></li>
+<li><a href="docs/01-Documentação de contexto.md"> Documentação de Contexto</a></li>
 <li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
 <li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
 <li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
