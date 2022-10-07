@@ -7,6 +7,8 @@ Nessa etapa, será demonstrado as ferramentas que serão utilizadas para criar d
 Além disso, determinadas ferramentas serão utilizadas também para organização e documentação do projeto. 
 
 Cada parte do processo de realização do projeto foi direcionado a uma plataforma para organização e criação das etapas. Abaixo poderão acessar o decorrer da produção. 
+
+
 Repositório de código fonte - https://classroom.github.com/a/_ZrkzEeC
 
 Documentos do protejo - https://classroom.github.com/a/_ZrkzEeC
