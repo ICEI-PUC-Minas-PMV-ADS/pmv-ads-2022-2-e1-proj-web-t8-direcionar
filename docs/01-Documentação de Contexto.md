@@ -1,11 +1,14 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Atualmente, uma das maiores dúvidas entre os jovens entre 17 e 22 anos, é na escolha de qual carreira seguir.
+A maioria desse público se encontra no 3° ano do Ensino Médio e não possuem um direcionamento de carreira para ajudá-lo nessa caminhada.
+Devido a essa dificuldade na escolha de profissão, os jovens acabam escolhendo uma área em que não se identificam, tornando-os insatisfeitos com seu trabalho, e possivelmente desistindo de seus cursos após algum tempo.
+Desta forma, faz-se necessário o autoconhecimento e o conhecimento da área de interesse.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+De acordo com o informado, o problema apresentado se trata da dificuldade dos jovens em escolherem um curso para seguir após a conclusão do Ensino Médio.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
@@ -16,26 +19,33 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo desse projeto é criar um website que ajude os jovens a encontrarem a melhor área de acordo com os aspectos em que ele se identifica.
+A partir do resultado do teste vocacional, iremos apresentar ao usuário informações acerca dos cursos dentro de sua área de aptidão e possibilidades de funções que ele pode exercer no mercado de trabalho.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Como objetivos específicos:
+
+Apresentar ao usuário informações acerca dos cursos dentro de sua área de aptidão, a partir do teste vocacional realizado.
+Implementar um teste vocacional.
+Apresentação das instituições de acordo com o ranking do MEC.
+
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Analisando uma pesquisa realizada pela Universidade de Morumbi, notou-se que quase metade dos alunos no último ano do Ensino Médio não escolheram a profissão que querem seguir, e dos que escolheram, 54% não permaneceram no curso escolhido.
+A partir disso, observa-se a dificuldade e o problema que é causado, gerando insatisfação, depressão, ansiedade e dúvida, em um dos anos mais importantes na vida dos jovens.
+Além disso, os canais que atualmente fazem o processo de direcionamento vocacional, trata as informações dos alunos muito superficialmente, não analisando a fundo seus aspectos.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O projeto visa ser viável a todos os públicos, pois é focado no direcionamento de carreira, no qual todos de qualquer idade podem se interessar.
+Porém, temos uma maior procura de jovens entre 17 e 23, que estão no último ano do Ensino Médio ou que acabaram de se formar.
+Então, estabelecemos que a criação do canal será com foco nesse público jovem, com informações direcionadas para os mesmos.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
