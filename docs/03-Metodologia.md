@@ -8,9 +8,13 @@ Além disso, determinadas ferramentas serão utilizadas também para organizaç�
 
 Cada parte do processo de realização do projeto foi direcionado a uma plataforma para organização e criação das etapas. Abaixo poderão acessar o decorrer da produção. 
 Repositório de código fonte - https://classroom.github.com/a/_ZrkzEeC
+
 Documentos do protejo - https://classroom.github.com/a/_ZrkzEeC
+
 Projeto de interface e wireframes - https://www.figma.com/files/team/1156583362772874111/Direcionar?fuid=1156346344921260827
+
 Gerenciamento do projeto - https://trello.com/b/wzcGIoJo/projeto-ads
+
 
 
 
