@@ -26,7 +26,7 @@ Como objetivos específicos:
 
 Apresentar ao usuário informações acerca dos cursos dentro de sua área de aptidão, a partir do teste vocacional realizado.
 Implementar um teste vocacional.
-Apresentação das instituições de acordo com o ranking do MEC.
+Apresentação das instituições de ensino superior privadas e públicas de acordo com o ranking do MEC.
 
  
 > **Links Úteis**:
