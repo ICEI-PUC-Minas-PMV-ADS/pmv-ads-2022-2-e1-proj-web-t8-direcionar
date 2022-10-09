@@ -2,90 +2,103 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A ideia inicial do projeto surgiu primeiramente das dores dos membros dessa equipe, no qual muitos não estão em seu primeiro curso, ou não atuam na profissão. 
+Após essa análise interna, pesquisas foram realizadas para entender os números, ou seja, qual a porcentagem de estudantes no Brasil que passaram por dificuldades na escolha de sua faculdade. 
+Diante da dificuldade dos jovens em escolher qual faculdade cursar e qual profissão seguir, o foco do projeto é colher informações específicas e relevantes para identificação das aptidões dos estudantes.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas em questão são membros da equipe, que passaram pelo problema a ser resolvido através desse projeto.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Caso 1
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Nome: Marina da Silva 
+Idade: 21
+Ocupação Atual: Analista de Suporte
+Formação Acadêmica: Cursando Análise e Desenvolvimento de Sistemas
+Frustrações: “Já cursei diversas faculdades e nunca me encontrei em uma. Não sei o que gostaria de cursar de verdade.”
+
+Caso 2
+
+Nome: Carlos Henrique Caputo
+Idade: 16
+Ocupação Atual: Estudante
+Formação Acadêmica: Último ano do Ensino Médio
+Frustrações: “Estou me formando e não sei o que quero cursar. Não me vejo atuando na área escolhida.“
+
+Caso 3
+
+Nome: Carolina Caputo Jorge 
+Idade: 22
+Ocupação Atual: Estudante
+Formação Acadêmica: Curso trancado de Administração
+Frustrações: “Abandonei o curso de administração no 3º semestre. Não sei bem o que quero cursar.“
+
+Caso 4
+Nome: Roberto Lucas Souza 
+Idade: 40
+Ocupação Atual: Especialista em CRM
+Formação Acadêmica: Engenharia Química
+Frustrações: “Me formei em Engenharia Química mas atualmente trabalho na área de CRM de uma fintech.“
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Tendo em vista o conhecimento a respeito da individualidade das personas especificadas para o projeto, foram listadas as seguintes histórias de usuários.  
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|         Quem?        |             O que quero?                        |            Por quê quero?              |
+|----------------------|-------------------------------------------------|----------------------------------------|
+|Caroline Caputo Jorge |Gostaria de saber com quais áreas me identifico, |Para poder traçar um plano de carreira, |
+|                      |através dos meus gostos e habilidades.           |saber o que cursar e em qual área atuar.|  
+|                      |Quero escolher um curso e ficar nele,            |Pois não quero seguir uma área e não    |
+|                      |sem trocar no futuro.                            |gostar dela no final.                   |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Carlos Henrique Caputo|Saber em qual área seguir após a conclusão do    |Pois quero ir para a faculdade logo     |
+|                      |ensino médio.                                    |quando acabar os estudos                |
+
+|Marina da Silva       |Me autoconhecer profissionalmente,               |Pois não quero me sentir insatisfeita   |
+|                      |entender em qual área do mercado quero atuar.    |futuramente com minha profissão.        |
+
+|Roberto Lucas Souza   |Mesmo aos 40 anos, quero fazer outra faculdade   |Para poder evoluir mais no meu          |
+|                      |e escolher uma boa opção de curso.               |trabalho atual.                         |                     
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O projeto em questão pode ser observado através de seu escopo, que foi construído por meio do estudo dos Requisitos Funcionais e Não Funcionais para mostrar o que o produto final deve apresentar.
+Através das definições abaixo, serão apresentados tais requisitos.
+
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|ID    | Descrição do Requisito                                                                                   |Prioridade|
+|------|----------------------------------------------------------------------------------------------------------|--------|
+|RF-001| A página inicial do projeto deverá ser clara, concisa e informativa.                                     | ALTA   | 
+|RF-002| O site deverá ter um questionário (teste de aptidão).                                                    | ALTA   |
+|RF-003| As perguntas devem ser exibidas, uma após a outra, com possibilidade de voltar a anterior.               | ALTA   | 
+|RF-004| A lista de perguntas do questionário deve ser correlacionadas com diversas áreas de conhecimento.        | ALTA   |
+|RF-005| O site deve informar sobre diversas opções de cursos de diferentes áreas.                                | ALTA   | 
+|RF-006| É necessário a coleta de informações sobre localização para indicar a universidade e cidade de escolha.  | MÉDIA  |
+|RF-007| O site deve informar sobre as instituições que ofertam os cursos, e de acordo com a geolocalização.      | MÉDIA  | 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|ID     | Descrição do Requisito                                                                                       |Prioridade |
+|-------|--------------------------------------------------------------------------------------------------------------|-----------|
+|RNF-001| Ao concluir o questionário, o site deverá dar uma resposta em no máximo 1 minuto.                            | MÉDIA     | 
+|RNF-002| O usuário deve escolher se deseja ser direcionado para cursos da área em que teve aptidão                    |  ALTA     | 
+|RNF-003| O usuário deve escolher se deseja ser direcionado para as o site das instituições que ofertam os cursos.     | BAIXA     | 
+|RNF-004| O site deve lembrar das respostas do usuário para quando ele entrar novamente na página.                     |  BAIXA    | 
+|RNF-005| O site deve ser publicado em um ambiente acessível publicamente na Internet GitHub Pages.                    |  ALTA     |
+|RNF-006| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada.                      |  ALTA     | 
+|RNF-007| O site deve ter bom nível de contraste entre os elementos da tela em conformidade                            |  ALTA     | 
+|RNF-008| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA     |
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|ID| Restrição                                                                                                         |
+|--|-------------------------------------------------------------------------------------------------------------------|
+|01| O  projeto  deverá  ser  entregue  no  final  do  semestre  letivo,  não  podendo extrapolar a data de 22/12/2022 |
+|02| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend                                         |
+|03|A equipe não pode subcontratar o desenvolvimento do trabalho.                                                      |
