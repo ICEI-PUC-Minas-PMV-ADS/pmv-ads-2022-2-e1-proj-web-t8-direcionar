@@ -73,9 +73,7 @@ Através das definições abaixo, serão apresentados tais requisitos.
 |RF-003| As perguntas devem ser exibidas, uma após a outra, com possibilidade de voltar a anterior.               | ALTA   | 
 |RF-004| A lista de perguntas do questionário deve ser correlacionadas com diversas áreas de conhecimento.        | ALTA   |
 |RF-005| O site deve informar sobre diversas opções de cursos de diferentes áreas.                                | ALTA   | 
-|RF-006| É necessário a coleta de informações sobre localização para indicar a universidade e cidade de escolha.  | MÉDIA  |
 |RF-007| O usuário deve autorizar o acesso a localização geográfica                                               | MÉDIA  |  
-|RF-007| O site deve informar sobre as instituições que ofertam os cursos, e de acordo com a geolocalização.      | MÉDIA  | 
 
 ### Requisitos não Funcionais
 
@@ -83,7 +81,6 @@ Através das definições abaixo, serão apresentados tais requisitos.
 |-------|--------------------------------------------------------------------------------------------------------------|-----------|
 |RNF-001| Ao concluir o questionário, o site deverá dar uma resposta em no máximo 1 minuto.                            | MÉDIA     | 
 |RNF-002| O usuário deve escolher se deseja ser direcionado para cursos da área em que teve aptidão                    |  ALTA     | 
-|RNF-003| O usuário deve escolher se deseja ser direcionado para as o site das instituições que ofertam os cursos.     | BAIXA     | 
 |RNF-004| O site deve lembrar das respostas do usuário para quando ele entrar novamente na página.                     |  BAIXA    | 
 |RNF-005| O site deve ser publicado em um ambiente acessível publicamente na Internet GitHub Pages.                    |  ALTA     |
 |RNF-006| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada.                      |  ALTA     | 
