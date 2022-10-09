@@ -20,8 +20,9 @@ A partir do resultado do teste vocacional, iremos apresentar ao usuário informa
 
 Como objetivos específicos:
 
-Apresentar ao usuário informações acerca dos cursos dentro de sua área de aptidão, a partir do teste vocacional realizado.
 Implementar um teste vocacional.
+Apresentar ao usuário informações acerca dos cursos dentro de sua área de aptidão, a partir do teste vocacional realizado.
+
 
 
 ## Justificativa
