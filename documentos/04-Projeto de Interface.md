@@ -9,7 +9,6 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 O diagrama apresentado abaixo mostra com que telas o usuário irá interagir dentro do site. Caso queira acessar o fluxo completo, basta acessar a esse link do Figma, plataforma utilizada para Projeto de Interface e Wireframes.
 
-![Exemplo de UserFlow](img/userflow.jpg)
 
 ## Wireframes
 
@@ -24,4 +23,4 @@ Rodapé  - apresenta informações de segurança e autenticidade da página;
 
 Tela - Home-Page
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Untitled (3)](https://user-images.githubusercontent.com/114435981/194732826-d15ba843-aca8-4cc4-a888-8ab67a576eed.png)
