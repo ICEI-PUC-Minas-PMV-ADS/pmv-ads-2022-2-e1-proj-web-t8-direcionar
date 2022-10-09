@@ -34,7 +34,7 @@ Apresentação das instituições de acordo com o ranking do MEC.
 
 ## Justificativa
 
-Analisando uma pesquisa realizada pela Universidade de Morumbi, notou-se que quase metade dos alunos no último ano do Ensino Médio não escolheram a profissão que querem seguir, e dos que escolheram, 54% não permaneceram no curso escolhido.
+Analisando uma pesquisa realizada pela Universidade de Morumbi em 2013, notou-se que quase metade dos alunos no último ano do Ensino Médio não escolheram a profissão que querem seguir, e dos que escolheram, 54% não permaneceram no curso escolhido.
 A partir disso, observa-se a dificuldade e o problema que é causado, gerando insatisfação, depressão, ansiedade e dúvida, em um dos anos mais importantes na vida dos jovens.
 Além disso, os canais que atualmente fazem o processo de direcionamento vocacional, trata as informações dos alunos muito superficialmente, não analisando a fundo seus aspectos.
 
