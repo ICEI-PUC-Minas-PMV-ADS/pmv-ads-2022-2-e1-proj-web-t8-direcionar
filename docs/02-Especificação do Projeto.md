@@ -51,14 +51,10 @@ Tendo em vista o conhecimento a respeito da individualidade das personas especif
 |                      |através dos meus gostos e habilidades.           |saber o que cursar e em qual área atuar.|  
 |                      |Quero escolher um curso e ficar nele,            |Pois não quero seguir uma área e não    |
 |                      |sem trocar no futuro.                            |gostar dela no final.                   |
-
-
 |Carlos Henrique Caputo|Saber em qual área seguir após a conclusão do    |Pois quero ir para a faculdade logo     |
 |                      |ensino médio.                                    |quando acabar os estudos                |
-
 |Marina da Silva       |Me autoconhecer profissionalmente,               |Pois não quero me sentir insatisfeita   |
 |                      |entender em qual área do mercado quero atuar.    |futuramente com minha profissão.        |
-
 |Roberto Lucas Souza   |Mesmo aos 40 anos, quero fazer outra faculdade   |Para poder evoluir mais no meu          |
 |                      |e escolher uma boa opção de curso.               |trabalho atual.                         |                     
 
