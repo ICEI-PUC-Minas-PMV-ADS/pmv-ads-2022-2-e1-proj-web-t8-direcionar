@@ -74,6 +74,7 @@ Através das definições abaixo, serão apresentados tais requisitos.
 |RF-004| A lista de perguntas do questionário deve ser correlacionadas com diversas áreas de conhecimento.        | ALTA   |
 |RF-005| O site deve informar sobre diversas opções de cursos de diferentes áreas.                                | ALTA   | 
 |RF-006| É necessário a coleta de informações sobre localização para indicar a universidade e cidade de escolha.  | MÉDIA  |
+|RF-007| O usuário deve autorizar o acesso a localização geográfica                                               | MÉDIA  |  
 |RF-007| O site deve informar sobre as instituições que ofertam os cursos, e de acordo com a geolocalização.      | MÉDIA  | 
 
 ### Requisitos não Funcionais
