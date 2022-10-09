@@ -18,9 +18,6 @@ Projeto de interface e wireframes - https://www.figma.com/files/team/11565833627
 Gerenciamento do projeto - https://trello.com/b/wzcGIoJo/projeto-ads
 
 
-
-
-
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -51,26 +48,27 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 > - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
 > - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
-## Gerenciamento de Projeto
-
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Para desenvolvermos o projeto, optamos pela metodologia Scrum, com foco em sermos ágeis na criação do site.
+A equipe está organizada da seguinte maneira:
+Scrum Master: Fabrício Maia
+Product Owner: Fabrício Maia
+Equipe de Desenvolvimento:
+Fabrício Maia
+Henrique de Brito
+Equipe de Design:
+André Paiva
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
+Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
+O quadro Kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/b/wzcGIoJo/projeto-ads e é apresentado abaixo no estado atual.
 
 ### Ferramentas
 
