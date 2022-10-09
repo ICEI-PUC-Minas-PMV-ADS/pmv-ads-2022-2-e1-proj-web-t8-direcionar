@@ -64,6 +64,8 @@ Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle
 
 O quadro Kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/b/wzcGIoJo/projeto-ads e é apresentado abaixo no estado atual.
 
+![Kanban](https://user-images.githubusercontent.com/114435981/194759909-a4ba6392-f2db-43a6-a2a1-2f29d53a8289.png)
+
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
