@@ -24,3 +24,11 @@ Rodapé  - apresenta informações de segurança e autenticidade da página;
 Tela - Home-Page
 
 ![Untitled (3)](https://user-images.githubusercontent.com/114435981/194732826-d15ba843-aca8-4cc4-a888-8ab67a576eed.png)
+
+Tela de Perguntas
+
+![Untitled (2)](https://user-images.githubusercontent.com/114435981/194732903-d231914f-5152-42ad-9cfe-c8fd167f278a.png)
+
+Tela de Resultado
+
+
