@@ -68,9 +68,9 @@ O quadro Kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+GitHub - Editor de código.
+Kanbam/Teams - Ferramentas de comunicação
+Figma - Ferramentas de desenho de tela
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
