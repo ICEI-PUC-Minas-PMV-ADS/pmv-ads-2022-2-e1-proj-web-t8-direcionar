@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Nessa etapa, será demonstrado as ferramentas que serão utilizadas para criar de todo o escopo do projeto, assim como a finalização do mesmo. 
+Nessa etapa, será demonstrado as ferramentas que serão utilizadas para criar o escopo do projeto, assim como a finalização do mesmo. 
 Além disso, determinadas ferramentas serão utilizadas também para organização e documentação do projeto. 
 
 Cada parte do processo de realização do projeto foi direcionado a uma plataforma para organização e criação das etapas. Abaixo poderão acessar o decorrer da produção. 
@@ -38,8 +38,6 @@ etiquetas:
 - `bug`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
 
 ### Divisão de Papéis
