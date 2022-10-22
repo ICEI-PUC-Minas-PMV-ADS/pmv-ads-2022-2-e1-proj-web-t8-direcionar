@@ -6,7 +6,7 @@ Desenvolvimento de Aplicação Web Front-End
 
 EIXO 1
 
-Esse projeto visa criar um website que ajude os jovens a encontrarem a melhor área de acordo com os aspectos em que ele se identifica. A partir do resultado do teste vocacional, iremos apresentar ao usuário informações acerca dos cursos dentro de sua área de aptidão e possibilidades de funções que ele pode exercer no mercado de trabalho.
+Esse projeto visa criar um website que faça os jovens encontrarem a melhor área de acordo com os aspectos a qual ele se identifica. A partir do resultado do teste vocacional, iremos apresentar ao usuário informações acerca dos cursos dentro de sua área de aptidão e possibilidades de funções que ele pode exercer no mercado de trabalho.
 
 
 ## Integrantes
