@@ -13,7 +13,7 @@ Repositório de código fonte - https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ad
 
 Documentos do protejo - https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t8-direcionar
 
-Projeto de interface e wireframes - https://www.figma.com/files/team/1156583362772874111/Direcionar?fuid=1156346344921260827
+Projeto de interface e wireframes - https://www.figma.com/file/ZB12ZToRXGetuHkLAGHCF9/Untitled?node-id=13%3A2
 
 Gerenciamento do projeto - https://trello.com/b/wzcGIoJo/projeto-ads
 
