@@ -9,7 +9,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 O diagrama apresentado abaixo mostra com que telas o usuário irá interagir dentro do site.
 
-![Fluxograma Direcionar](https://user-images.githubusercontent.com/114435981/197089431-946c9300-f0c3-4c46-a359-6ccd729b5146.png)
+![Fluxograma Direcionar](https://user-images.githubusercontent.com/114435981/198414889-552b211f-8bdb-420c-923a-64993dd658c7.png)
 
 
 ## Wireframes
