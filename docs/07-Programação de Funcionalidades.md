@@ -2,4 +2,30 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
-A implementação está acontecendo por meio da criação da pagina HTML e organizado via CSS, está sendo concluida a criação da index posteriormente será criada a pagina de "perguntas", "sobre" e "repostas".
+Será apresentado abaixo as informações acerca dos requisitos que foram atentidos.
+
+## 1. Pagina inicial (RF-001)
+
+### 1.1 Requisitos atendidos:
+
+* RF-001 A página inicial do projeto deverá ser clara, concisa e informativa.
+Nesta pagina, o usuario conseguirá visualizar as orientações acerca do teste vocacional.
+
+### 1.2 Artefatos da funcionalidade:
+
+* Index.html
+* Style.css
+
+Nesta pagina, o usuario conseguirá visualizar as orientações acerca do teste vocacional.
+
+## 2. Pagina inicial (RF-004)
+
+### 2.1 Requisitos atendidos:
+
+* RF-004 O site deverá ser responsivo, podendo ser visualizado de um dispositivo movel.
+
+### 2.2 Artefatos da funcionalidade:
+
+* Style.css
+
+
