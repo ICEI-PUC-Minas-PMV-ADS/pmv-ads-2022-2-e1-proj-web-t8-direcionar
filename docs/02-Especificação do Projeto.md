@@ -67,13 +67,12 @@ Através das definições abaixo, serão apresentados tais requisitos.
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito                                                                                   |Prioridade|
-|------|----------------------------------------------------------------------------------------------------------|--------|
-|RF-001| A página inicial do projeto deverá ser clara, concisa e informativa.                                     | ALTA   | 
-|RF-002| O site deverá ter um questionário (teste de aptidão).                                                    | ALTA   |
-|RF-003| As perguntas devem ser exibidas, uma após a outra, com possibilidade de voltar a anterior.               | ALTA   | 
-|RF-004| A lista de perguntas do questionário deve ser correlacionadas com diversas áreas de conhecimento.        | ALTA   |
-|RF-005| O site deve informar sobre diversas opções de cursos de diferentes áreas.                                | ALTA   | 
-|RF-007| O usuário deve autorizar o acesso a localização geográfica                                               | MÉDIA  |  
+|------|----------------------------------------------------------------------------------------------------------|----------|
+|RF-001| A página inicial do projeto deverá ser clara, concisa e informativa.                                     |   ALTA   | 
+|RF-002| O site deverá ter um questionário (teste de aptidão).                                                    |   ALTA   |
+|RF-003| As perguntas devem ser exibidas, uma após a outra, com possibilidade de voltar a anterior.               |   ALTA   | 
+|RF-004| O site deve mostrar diversas opções de cursos após o resultado.                                          |   ALTA   | 
+
 
 ### Requisitos não Funcionais
 
@@ -81,11 +80,10 @@ Através das definições abaixo, serão apresentados tais requisitos.
 |-------|--------------------------------------------------------------------------------------------------------------|-----------|
 |RNF-001| Ao concluir o questionário, o site deverá dar uma resposta em no máximo 1 minuto.                            | MÉDIA     | 
 |RNF-002| O usuário deve escolher se deseja ser direcionado para cursos da área em que teve aptidão                    |  ALTA     | 
-|RNF-004| O site deve lembrar das respostas do usuário para quando ele entrar novamente na página.                     |  BAIXA    | 
-|RNF-005| O site deve ser publicado em um ambiente acessível publicamente na Internet GitHub Pages.                    |  ALTA     |
-|RNF-006| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada.                      |  ALTA     | 
-|RNF-007| O site deve ter bom nível de contraste entre os elementos da tela em conformidade                            |  ALTA     | 
-|RNF-008| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA     |
+|RNF-003| O site deve ser publicado em um ambiente acessível publicamente na Internet GitHub Pages.                    |  ALTA     |
+|RNF-004| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada.                      |  ALTA     | 
+|RNF-005| O site deve ter bom nível de contraste entre os elementos da tela em conformidade                            |  ALTA     | 
+|RNF-006| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA     |
 
 ## Restrições
 
