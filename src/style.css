@@ -1,80 +1,132 @@
+/* Estilo cabeçalho */ 
 header {
-    background-color: black;
+    background-color: white;
     text-align: right;
-    padding-top: 1px;
-    padding-block-end: 1px;
-    padding-right: 5px;
+    padding: 4px 0px 4px 0px;
+    border-radius: 10px;
 }
 
-header li {
+header ul li {
     font-family: verdana;
-    padding-right: 20px;
-    padding-left: 20px;
+    font-size: 15px;
+    padding: 4px 15px 4px 0px;
+    margin-right: 7px;
     display: inline;
-    color: rgb(255, 255, 255);
-    
 }
 
-header li:hover {
-    color: rgb(255, 145, 0);
-    background-color: rgb(70, 67, 64);
+
+body {
+    background-color: #ff6f00;
+}
+
+/* #ff8425, #ff8c33 */
+.titulos { 
+    background: white;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.titulo1 {
+    color: #ff6f00;
+    font-size: 10mm;
+    font-size: 4em;
+    font-family: 'Comic Sans MS';
+    padding: 30px 0px 0px 70px;
+}
+
+.titulo2 {
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    padding-left: 25px;
+    margin: -35px 0px 30px 50px;
+    color: black; 
+}
+
+.botao {
+    color: white;
+    background-color: #ff6f00;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: tahoma;    
+    padding: 8px;
+    margin: 0px 0px 0px 10px;
+}
+
+.botao:hover{
+    color: black;
+    background-color: #ff6f00;
     border-radius: 15px;
     cursor: pointer;
 }
 
-body {
-    background: linear-gradient(28deg, rgba(212, 207, 207, 1) 0%, rgba(251, 178, 19, 0.45) 55%, rgba(212, 207, 207, 1) 100%, rgba(251, 178, 19, 0.45) 100%);
-}
-
-
-main h1 {
-    color: rgb(87, 82, 78);
-    font-size: 10mm;
-    font-size: 3em;
-    background-color: antiquewhite;
-    font-family: 'Comic Sans MS';
+.botao2 {
+    color: white;
+    background-color: #ff6f00;
     border-radius: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: tahoma;    
+    padding: 8px;
+    margin: 30px 0px 0px 75px;
 }
 
-main h2 {
-    font-family: 'Trebuchet MS';
-    font-size: 7mm;
+.botao2:hover {
+    color: black;
+    background-color: #ff6f00;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+#artigos {
+    margin: 12px 0px -30px 0px;
+    padding-bottom: 25px;
+    background-color: white;
+}
 
 main h3 {
-    font-size: 2em;
-    text-align: center;
+    font-size: 35px;
     font-family: 'Trebuchet MS';
-    margin-top: 250px;
+    text-align: center;
+    padding-top: 35px;
+    color: black;
 }
 
 main h4 {
-    font-size: 6mm;
-    text-align: center;
+    color: black;
+    font-size: 25px;
     font-family: 'Lucida Sans';
+    text-align: left;
+    margin-left: 160px ;
     margin-top: 70px;
 }
+
 
 article p {
     margin-top: -15px;
     text-align: justify;
     text-indent: 20px;
-    font-size: 20px;
+    font-size: 25px;
     padding: 20px;
     margin-left: 120px;
     margin-right: 120px;
-    background: linear-gradient(180deg, rgba(193,193,193,0.9136029411764706) 0%, rgba(119,117,117,0.7287289915966386) 100%);
+    background-color: white;
+    border: solid 3px orange;
+    box-shadow: 0px 5px 5px 0px #ff6f00;
     border-radius: 15px;
 }
 
+/* rodapé */
 footer {
     margin-top: 50px;
     padding-top: 15px;
     height: 40px;
-    font: bolder;
-    color: rgb(255, 255, 255);
+    background-color: white;
+    font-size: 20px;
     text-align: center;
-    background-color: black;
+    border-radius: 10px;
 }
-
