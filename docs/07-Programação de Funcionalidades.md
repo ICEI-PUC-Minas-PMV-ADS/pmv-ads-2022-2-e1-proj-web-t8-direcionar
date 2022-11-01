@@ -17,15 +17,3 @@ Nesta pagina, o usuario conseguirá visualizar as orientações acerca do teste 
 * Style.css
 
 Nesta pagina, o usuario conseguirá visualizar as orientações acerca do teste vocacional.
-
-## 2. Pagina inicial (RF-004)
-
-### 2.1 Requisitos atendidos:
-
-* RF-004 O site deverá ser responsivo, podendo ser visualizado de um dispositivo movel.
-
-### 2.2 Artefatos da funcionalidade:
-
-* Style.css
-
-
