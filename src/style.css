@@ -1,19 +1,31 @@
 /* Estilo cabeçalho */ 
 header {
     background-color: white;
-    text-align: right;
-    padding: 4px 0px 4px 0px;
     box-shadow: 0px 0px 5px 0px black;
+    display: flex;
+    justify-content: space-between;
 }
 
-header ul li {
-    font-family: verdana;
-    font-size: 15px;
-    padding: 4px 15px 4px 0px;
-    margin-right: 7px;
-    display: inline;
+ul {
+    display:flex;
+    list-style: none;
+    padding-left: 10px;
+    margin: 30.5px 10px 0px 0px;
 }
 
+.logo {
+    margin: 12px 0px 10px 50px;
+    display: flex;
+}
+
+.logo h1{
+    margin: 10px 0px 10px 7px;
+    font-family: 'Trebuchet MS' ;
+}
+img {
+    width: 60px;
+    height: 60px;
+}
 
 body {
     background-color: #ff6f00;
@@ -70,7 +82,7 @@ body {
     box-shadow: 0px 2px 2px 0px black;
     font-weight: bolder;
     font-size: 20px;
-    font-family: Trebuchet MS;    
+    font-family: 'Trebuchet MS';    
     padding: 8px;
     margin: 30px 0px 0px 122px;
 }
