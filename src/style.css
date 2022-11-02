@@ -10,7 +10,7 @@ ul {
     display:flex;
     list-style: none;
     padding-left: 10px;
-    margin: 30.5px 10px 0px 0px;
+    margin: 29px 10px 0px 0px;
 }
 
 .logo {
@@ -19,9 +19,10 @@ ul {
 }
 
 .logo h1{
-    margin: 10px 0px 10px 7px;
+    margin: 9px 0px 10px 8px;
     font-family: 'Trebuchet MS' ;
 }
+
 img {
     width: 60px;
     height: 60px;
