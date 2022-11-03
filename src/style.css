@@ -1,20 +1,22 @@
 /* Estilo cabeçalho */ 
 header {
     background-color: white;
-    box-shadow: 0px 0px 5px 0px black;
+    box-shadow: 5px 0px 5px 0px black;
     display: flex;
     justify-content: space-between;
+    padding: 4px;
+    margin: 0 0 0px 0;
 }
 
 ul {
     display:flex;
     list-style: none;
     padding-left: 10px;
-    margin: 29px 10px 0px 0px;
+    margin: 24px 10px 0px 0px;
 }
 
 .logo {
-    margin: 12px 0px 10px 50px;
+    margin: 5px 0px 5px 50px;
     display: flex;
 }
 
@@ -36,22 +38,21 @@ body {
 
 .titulos { 
     background: linear-gradient(90deg, rgba(255,111,0,1) 25%, rgba(255,166,98,1) 75%);
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .titulo1 {
     color: white;
-    text-shadow: black;
     font-size: 55px;
     font-family: 'Comic Sans MS';
-    padding: 30px 0px 0px 120px;
+    margin: 1px 0 0 0;
+    padding: 50px 0px 0px 120px;
 }
 
 .titulo2 {
     font-family: 'Trebuchet MS';
     font-size: 22px;
-    padding-left: 25px;
-    margin: -35px 0px 30px 95.5px;
+    margin: 15px 0px 30px 120px;
     color: black; 
 }
 
@@ -76,6 +77,7 @@ body {
 }
 
 /*  botão iniciar teste*/
+
 .botao2 {
     color: black;
     background-color: white;
@@ -85,7 +87,7 @@ body {
     font-size: 20px;
     font-family: 'Trebuchet MS';    
     padding: 8px;
-    margin: 30px 0px 0px 122px;
+    margin: 30px 0px 50px 122px;
 }
 
 .botao2:hover {
@@ -102,8 +104,7 @@ a:link {
 
 /* Noticias */
 #artigos {
-    margin: 12px 0px -30px 0px;
-    padding-bottom: 25px;
+    padding: 5px 0px 25px 0px;
     background-color: white;
     box-shadow: 5px 0px 5px 0px black;
 }
@@ -111,8 +112,9 @@ a:link {
 main h3 {
     font-size: 25px;
     font-family: 'Trebuchet MS';
+    text-decoration:underline;
     text-align: center;
-    padding-top: 30px;
+    text-shadow: 0px 0px 5px 0px black;
     color: black;
 }
 
@@ -121,8 +123,8 @@ main h4 {
     font-size: 20px;
     font-family: 'Lucida Sans';
     text-align: left;
-    margin-left: 160px ;
-    margin-top: 70px;
+    margin-left: 163px ;
+    margin-top: 50px;
 }
 
 /* Artigos */
@@ -142,8 +144,7 @@ article p {
 
 /* rodapé */
 footer {
-    margin-top: 50px;
-    padding-top: 15px;
+    padding-top: 20px;
     height: 40px;
     background-color: white;
     box-shadow: 5px 0px 5px 0px black;
