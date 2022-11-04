@@ -34,6 +34,7 @@ body {
     background: linear-gradient(90deg, rgba(255,111,0,1) 25%, rgba(255,166,98,1) 75%);
     margin: 0px;
     padding: 0px;
+    height: 100%;
 }
 
 .titulos {
