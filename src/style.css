@@ -1,4 +1,4 @@
-/* Estilo cabeçalho */ 
+/* Estilo cabeçalho */
 header {
     background-color: white;
     box-shadow: 0px 2px 4px black;
@@ -9,7 +9,7 @@ header {
 }
 
 ul {
-    display:flex;
+    display: flex;
     list-style: none;
     padding-left: 10px;
     margin: 24px 10px 0px 0px;
@@ -30,11 +30,18 @@ img {
     height: 60px;
 }
 
+* {
+    margin: 0;
+}
+
+html,
 body {
-    background: linear-gradient(90deg, rgba(255,111,0,1) 25%, rgba(255,166,98,1) 75%);
-    margin: 0px;
-    padding: 0px;
     height: 100%;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(255, 111, 0, 1) 25%, rgba(255, 166, 98, 1) 75%);
+    margin: 0px;
 }
 
 .titulos {
@@ -54,10 +61,10 @@ body {
     font-family: 'Trebuchet MS';
     font-size: 22px;
     margin: 20px 0px 30px 120px;
-    color: black; 
+    color: black;
 }
 
-/* Botões cabeçalho */ 
+/* Botões cabeçalho */
 .botao {
     color: white;
     background-color: #ff6f00;
@@ -74,6 +81,7 @@ body {
     color: black;
     background-color: #ff6f00;
     border-radius: 15px;
+    font-size: 15.3px;
     cursor: pointer;
 }
 
@@ -95,6 +103,7 @@ body {
     color: #ff6f00;
     background-color: white;
     border-radius: 15px;
+    font-size: 20.3px;
     cursor: pointer;
 }
 
@@ -111,9 +120,10 @@ a:link {
 }
 
 main h3 {
+    padding-top: 30px;
     font-size: 25px;
     font-family: 'Trebuchet MS';
-    text-decoration:underline;
+    text-decoration: underline;
     text-align: center;
     color: black;
 }
@@ -128,14 +138,15 @@ main h4 {
 
 /* Artigos */
 article p {
-    margin-top: -15px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
     padding: 20px;
     text-align: justify;
     text-indent: 20px;
     font-size: 20px;
-    font-family: calibri;
+    font-family: 'calibri';
     background-color: white;
     box-shadow: 4px 5px 5px #ff6f00;
     border: solid 1px orange;
@@ -143,7 +154,10 @@ article p {
 }
 
 /* rodapé */
-footer {
+.footer-index {
+    width: 100%;
+    position: relative;
+    bottom: 0;
     padding-top: 20px;
     height: 40px;
     background-color: white;
@@ -152,23 +166,198 @@ footer {
     text-align: center;
 }
 
-/* --------------------------- Sobre -------------------------- */
+.footer-sobre {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-top: 20px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0px -2px 4px black;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*------------------rodapé---------------------*/
 
 .mainsobre {
-    padding: 110px 140px 110px 140px;
+    padding: 0;
 }
 
 .sobre {
-    padding: 70px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding: 40px;
     text-align: justify;
     text-indent: 20px;
-    font-size: 20px;
+    font-size: 18px;
     background-color: white;
     box-shadow: 4px 5px 5px black;
     border: solid 1px black;
     border-radius: 15px;
 }
 
-.sobre h1, p {
-    font-family:'Trebuchet MS';
+.sobre h1,
+p {
+    display: flex;
+    font-family: 'Trebuchet MS';
+}
+
+@media (max-width: 800px) {
+
+    .mainsobre {
+        padding: 0;
+    }
+
+    .sobre {
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        padding: 30px;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 16px;
+        background-color: white;
+        box-shadow: 4px 5px 5px black;
+        border: solid 1px black;
+        border-radius: 15px;
+    }
+
+    .sobre h1,
+    p {
+        font-family: 'Trebuchet MS';
+    }
+}
+
+@media (max-width: 540px) {
+
+    .mainsobre {
+        padding: 0;
+    }
+
+    .sobre {
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        padding: 20px;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 16px;
+        background-color: white;
+        box-shadow: 4px 5px 5px black;
+        border: solid 1px black;
+        border-radius: 15px;
+    }
+
+    .sobre h1,
+    p {
+        font-family: 'Trebuchet MS';
+    }
+}
+
+@media (max-width: 1040px) {
+    /* Artigos */
+    article p {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+        padding: 20px;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+        font-family: 'calibri';
+        background-color: white;
+        box-shadow: 4px 5px 5px #ff6f00;
+        border: solid 1px orange;
+        border-radius: 15px;
+    }
+
+}
+
+@media (max-width: 780px) {
+    
+    main h3 {
+        padding-top: 20px;
+        font-size: 22px;
+        font-family: 'Trebuchet MS';
+        text-decoration: underline;
+        text-align: center;
+        color: black;
+    }
+
+    /* Artigos */
+    article p {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        padding: 20px;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+        font-family: 'calibri';
+        background-color: white;
+        box-shadow: 4px 5px 5px #ff6f00;
+        border: solid 1px orange;
+        border-radius: 15px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    
+    .titulo1 {
+        color: white;
+        font-size: 42px;
+        font-family: 'Trebuchet MS';
+        margin: 0;
+        padding: 60px 0px 0px 120px;
+        text-shadow: -5px 5px 10px black;
+    }
+    
+    .titulo2 {
+        font-family: 'Trebuchet MS';
+        font-size: 20px;
+        margin: 20px 0px 30px 120px;
+        color: black;
+    }
+
+    main h3 {
+        padding-top: 20px;
+        font-size: 18px;
+        font-family: 'Trebuchet MS';
+        text-decoration: underline;
+        text-align: center;
+        color: black;
+    }
+    
+    main h4 {
+        color: black;
+        font-size: 16px;
+        font-family: 'Trebuchet MS';
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    /* Artigos */
+    article p {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        padding: 20px;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 17px;
+        font-family: 'calibri';
+        background-color: white;
+        box-shadow: 4px 5px 5px #ff6f00;
+        border: solid 1px orange;
+        border-radius: 15px;
+    }   
 }
