@@ -178,7 +178,7 @@ article p {
     text-align: center;
 }
 
-/*------------------rodapé---------------------*/
+/*------------------sobre---------------------*/
 
 .mainsobre {
     padding: 0;
@@ -205,6 +205,7 @@ p {
     font-family: 'Trebuchet MS';
 }
 
+/* ------------ Reponsividade Sobre ------------*/
 @media (max-width: 800px) {
 
     .mainsobre {
@@ -232,6 +233,7 @@ p {
     }
 }
 
+/* ------------ Reponsividade Sobre ------------*/
 @media (max-width: 540px) {
 
     .mainsobre {
@@ -259,6 +261,7 @@ p {
     }
 }
 
+/* ------------ Reponsividade index ------------*/
 @media (max-width: 1040px) {
     /* Artigos */
     article p {
@@ -279,6 +282,7 @@ p {
 
 }
 
+/* ------------ Reponsividade index ------------*/
 @media (max-width: 780px) {
     
     main h3 {
@@ -309,6 +313,8 @@ p {
 
 }
 
+
+/* ------------ Reponsividade index ------------*/
 @media (max-width: 600px) {
     
     .titulo1 {
