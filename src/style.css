@@ -233,7 +233,6 @@ p {
     }
 }
 
-/* ------------ Reponsividade Sobre ------------*/
 @media (max-width: 540px) {
 
     .mainsobre {
@@ -263,6 +262,7 @@ p {
 
 /* ------------ Reponsividade index ------------*/
 @media (max-width: 1040px) {
+
     /* Artigos */
     article p {
         margin-top: 10px;
@@ -284,7 +284,23 @@ p {
 
 /* ------------ Reponsividade index ------------*/
 @media (max-width: 780px) {
-    
+
+    .titulo1 {
+        color: white;
+        font-size: 55px;
+        font-family: 'Trebuchet MS';
+        margin: 0;
+        padding: 60px 0px 0px 90px;
+        text-shadow: -5px 5px 10px black;
+    }
+
+    .titulo2 {
+        font-family: 'Trebuchet MS';
+        font-size: 22px;
+        margin: 20px 0px 30px 90px;
+        color: black;
+    }
+
     main h3 {
         padding-top: 20px;
         font-size: 22px;
@@ -316,21 +332,96 @@ p {
 
 /* ------------ Reponsividade index ------------*/
 @media (max-width: 600px) {
-    
+
+    header {
+        background-color: white;
+        box-shadow: 0px 2px 4px black;
+        display: flex;
+        justify-content: space-between;
+        padding: 2px;
+        margin: 0;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding-left: 10px;
+        margin: auto 10px auto 0px;
+    }
+
+    .logo {
+        margin: auto 0px auto 5px;
+        display: flex;
+    }
+
+    .logo h1 {
+        font-size: 25px;
+        margin: auto 0px auto 8px;
+        font-family: 'Trebuchet MS';
+    }
+
+    img {
+        width: 48px;
+        height: 48px;
+    }
+
     .titulo1 {
         color: white;
         font-size: 42px;
         font-family: 'Trebuchet MS';
         margin: 0;
-        padding: 60px 0px 0px 120px;
+        padding: 60px 0px 0px 60px;
         text-shadow: -5px 5px 10px black;
     }
-    
+
     .titulo2 {
         font-family: 'Trebuchet MS';
         font-size: 20px;
-        margin: 20px 0px 30px 120px;
+        margin: 20px 0px 30px 60px;
         color: black;
+    }
+
+    /* Botões cabeçalho */
+    .botao {
+        color: white;
+        background-color: #ff6f00;
+        border-radius: 15px;
+        box-shadow: 1px 2px 3px black;
+        font-weight: bolder;
+        font-size: 13px;
+        font-family: tahoma;
+        padding: 8px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .botao:hover {
+        color: black;
+        background-color: #ff6f00;
+        border-radius: 15px;
+        font-size: 13.3px;
+        cursor: pointer;
+    }
+
+    /*  botão iniciar teste*/
+
+    .botao2 {
+        color: black;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 1px 2px 3px black;
+        font-weight: bolder;
+        font-size: 18px;
+        font-family: 'Trebuchet MS';
+        padding: 6px;
+        margin: 30px 0px 0px 60px;
+    }
+
+    .botao2:hover {
+        color: #ff6f00;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 20.3px;
+        cursor: pointer;
     }
 
     main h3 {
@@ -341,7 +432,7 @@ p {
         text-align: center;
         color: black;
     }
-    
+
     main h4 {
         color: black;
         font-size: 16px;
@@ -355,7 +446,7 @@ p {
         margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
+        width: 340px;
         padding: 20px;
         text-align: justify;
         text-indent: 20px;
@@ -365,5 +456,5 @@ p {
         box-shadow: 4px 5px 5px #ff6f00;
         border: solid 1px orange;
         border-radius: 15px;
-    }   
+    }
 }
