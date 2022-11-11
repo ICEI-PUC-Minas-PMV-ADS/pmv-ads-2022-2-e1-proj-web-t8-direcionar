@@ -4,25 +4,40 @@ header {
     box-shadow: 0px 2px 4px black;
     display: flex;
     justify-content: space-between;
-    padding: 4px;
+    padding: 1px;
     margin: 0;
+}
+
+span {
+    color: #ff6f00;
+    cursor: pointer;
+    display: none;
+    margin-top: auto;
+    margin-bottom: auto;
+
 }
 
 ul {
     display: flex;
     list-style: none;
+    margin-right: 5px;
     padding-left: 10px;
-    margin: 24px 10px 0px 0px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .logo {
-    margin: 5px 0px 5px 50px;
+    margin: 0px 0px 0px 50px;
     display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .logo h1 {
-    margin: 9px 0px 10px 8px;
+    margin: 0px 0px 0px 8px;
     font-family: 'Trebuchet MS';
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 img {
@@ -185,7 +200,7 @@ article p {
 }
 
 .sobre {
-    margin-top: 100px;
+    margin-top: 140px;
     margin-left: auto;
     margin-right: auto;
     width: 700px;
@@ -213,7 +228,7 @@ p {
     }
 
     .sobre {
-        margin-top: 80px;
+        margin-top: 100px;
         margin-left: auto;
         margin-right: auto;
         width: 450px;
@@ -355,7 +370,7 @@ p {
     }
 
     .logo h1 {
-        font-size: 25px;
+        font-size: 22px;
         margin: auto 0px auto 8px;
         font-family: 'Trebuchet MS';
     }
@@ -370,14 +385,14 @@ p {
         font-size: 42px;
         font-family: 'Trebuchet MS';
         margin: 0;
-        padding: 60px 0px 0px 60px;
+        padding: 60px 0px 0px 30px;
         text-shadow: -5px 5px 10px black;
     }
 
     .titulo2 {
         font-family: 'Trebuchet MS';
         font-size: 20px;
-        margin: 20px 0px 30px 60px;
+        margin: 20px 0px 30px 30px;
         color: black;
     }
 
@@ -413,20 +428,20 @@ p {
         font-size: 18px;
         font-family: 'Trebuchet MS';
         padding: 6px;
-        margin: 30px 0px 0px 60px;
+        margin: 30px 0px 0px 30px;
     }
 
     .botao2:hover {
         color: #ff6f00;
         background-color: white;
         border-radius: 15px;
-        font-size: 20.3px;
+        font-size: 18.3px;
         cursor: pointer;
     }
 
     main h3 {
         padding-top: 20px;
-        font-size: 18px;
+        font-size: 16px;
         font-family: 'Trebuchet MS';
         text-decoration: underline;
         text-align: center;
@@ -446,8 +461,8 @@ p {
         margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
-        width: 340px;
-        padding: 20px;
+        width: 310px;
+        padding: 15px;
         text-align: justify;
         text-indent: 20px;
         font-size: 17px;
