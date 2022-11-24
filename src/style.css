@@ -81,6 +81,7 @@ body {
 
 /* Botões cabeçalho */
 .botao {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     color: white;
     background-color: #ff6f00;
     border-radius: 15px;
@@ -93,16 +94,17 @@ body {
 }
 
 .botao:hover {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     color: black;
     background-color: #ff6f00;
     border-radius: 15px;
-    font-size: 15.3px;
     cursor: pointer;
 }
 
 /*  botão iniciar teste*/
 
 .botao2 {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     color: black;
     background-color: white;
     border-radius: 15px;
@@ -110,15 +112,15 @@ body {
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Trebuchet MS';
-    padding: 8px;
+    letter-spacing: 1.5px;
+    padding: 9px 20px;
     margin: 30px 0px 0px 122px;
 }
 
 .botao2:hover {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     color: #ff6f00;
-    background-color: white;
-    border-radius: 15px;
-    font-size: 20.3px;
+    border-radius: 45px;
     cursor: pointer;
 }
 
@@ -156,7 +158,7 @@ article p {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 950px;
+    width: 80%;
     padding: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -203,7 +205,7 @@ article p {
     margin-top: 140px;
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
+    width: 80%;
     padding: 40px;
     text-align: justify;
     text-indent: 20px;
@@ -214,154 +216,52 @@ article p {
     border-radius: 15px;
 }
 
-.sobre h1,
-p {
+.sobre h1 {
     display: flex;
     font-family: 'Trebuchet MS';
 }
 
-/* ------------ Reponsividade Sobre ------------*/
-@media (max-width: 800px) {
-
-    .mainsobre {
-        padding: 0;
-    }
-
-    .sobre {
-        margin-top: 100px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 450px;
-        padding: 30px;
-        text-align: justify;
-        text-indent: 20px;
-        font-size: 16px;
-        background-color: white;
-        box-shadow: 4px 5px 5px black;
-        border: solid 1px black;
-        border-radius: 15px;
-    }
-
-    .sobre h1,
-    p {
-        font-family: 'Trebuchet MS';
-    }
+.sobre p {
+    margin-top: 10px;
+    display: flex;
+    font-family: 'Trebuchet MS';
 }
 
-@media (max-width: 540px) {
-
-    .mainsobre {
-        padding: 0;
-    }
-
-    .sobre {
-        margin-top: 80px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        padding: 20px;
-        text-align: justify;
-        text-indent: 20px;
-        font-size: 16px;
-        background-color: white;
-        box-shadow: 4px 5px 5px black;
-        border: solid 1px black;
-        border-radius: 15px;
-    }
-
-    .sobre h1,
-    p {
-        font-family: 'Trebuchet MS';
-    }
-}
-
-/* ------------ Reponsividade index ------------*/
-@media (max-width: 1040px) {
-
-    /* Artigos */
-    article p {
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 700px;
-        padding: 20px;
-        text-align: justify;
-        text-indent: 20px;
-        font-size: 20px;
-        font-family: 'calibri';
-        background-color: white;
-        box-shadow: 4px 5px 5px #ff6f00;
-        border: solid 1px orange;
-        border-radius: 15px;
-    }
-
-}
 
 /* ------------ Reponsividade index ------------*/
 @media (max-width: 780px) {
 
     .titulo1 {
-        color: white;
         font-size: 55px;
-        font-family: 'Trebuchet MS';
         margin: 0;
-        padding: 60px 0px 0px 90px;
-        text-shadow: -5px 5px 10px black;
+        padding: 60px 0px 0px 70px;
     }
 
     .titulo2 {
-        font-family: 'Trebuchet MS';
+        
         font-size: 22px;
-        margin: 20px 0px 30px 90px;
-        color: black;
+        margin: 20px 0px 30px 70px;
     }
 
     main h3 {
-        padding-top: 20px;
-        font-size: 22px;
-        font-family: 'Trebuchet MS';
-        text-decoration: underline;
-        text-align: center;
-        color: black;
+        font-size: 22px;  
     }
 
-    /* Artigos */
-    article p {
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 500px;
-        padding: 20px;
-        text-align: justify;
-        text-indent: 20px;
+    .botao2 {
         font-size: 20px;
-        font-family: 'calibri';
-        background-color: white;
-        box-shadow: 4px 5px 5px #ff6f00;
-        border: solid 1px orange;
-        border-radius: 15px;
+        margin: 30px 0px 0px 70px;
     }
-
 }
 
-
-/* ------------ Reponsividade index ------------*/
+/* ------------ Reponsividade index & Header ------------*/
 @media (max-width: 600px) {
 
     header {
-        background-color: white;
-        box-shadow: 0px 2px 4px black;
-        display: flex;
-        justify-content: space-between;
         padding: 2px;
-        margin: 0;
     }
 
     ul {
-        display: flex;
-        list-style: none;
-        padding-left: 10px;
-        margin: auto 10px auto 0px;
+        margin: auto 6px auto 0px;
     }
 
     .logo {
@@ -370,106 +270,124 @@ p {
     }
 
     .logo h1 {
-        font-size: 22px;
-        margin: auto 0px auto 8px;
-        font-family: 'Trebuchet MS';
+        font-size: 21px;
+        margin: auto 0px auto 6px;
     }
 
     img {
-        width: 48px;
-        height: 48px;
+        width: 44px;
+        height: 44px;
     }
 
     .titulo1 {
-        color: white;
         font-size: 42px;
-        font-family: 'Trebuchet MS';
-        margin: 0;
-        padding: 60px 0px 0px 30px;
-        text-shadow: -5px 5px 10px black;
+        padding: 50px 0px 0px 30px; 
     }
 
     .titulo2 {
-        font-family: 'Trebuchet MS';
         font-size: 20px;
         margin: 20px 0px 30px 30px;
-        color: black;
     }
 
     /* Botões cabeçalho */
     .botao {
-        color: white;
-        background-color: #ff6f00;
-        border-radius: 15px;
-        box-shadow: 1px 2px 3px black;
-        font-weight: bolder;
-        font-size: 13px;
-        font-family: tahoma;
-        padding: 8px;
-        margin: 0px 0px 0px 10px;
+        font-size: 11px;
+        padding: 6px;
+        margin: 0px 0px 0px 5px;
     }
-
-    .botao:hover {
-        color: black;
-        background-color: #ff6f00;
-        border-radius: 15px;
-        font-size: 13.3px;
-        cursor: pointer;
-    }
-
-    /*  botão iniciar teste*/
 
     .botao2 {
-        color: black;
-        background-color: white;
-        border-radius: 15px;
-        box-shadow: 1px 2px 3px black;
-        font-weight: bolder;
-        font-size: 18px;
-        font-family: 'Trebuchet MS';
-        padding: 6px;
+        font-size: 15px;
+        padding: 8px 16px;
         margin: 30px 0px 0px 30px;
     }
 
-    .botao2:hover {
-        color: #ff6f00;
-        background-color: white;
-        border-radius: 15px;
-        font-size: 18.3px;
-        cursor: pointer;
-    }
-
     main h3 {
-        padding-top: 20px;
         font-size: 16px;
-        font-family: 'Trebuchet MS';
-        text-decoration: underline;
-        text-align: center;
-        color: black;
     }
 
     main h4 {
-        color: black;
         font-size: 16px;
-        font-family: 'Trebuchet MS';
-        text-align: center;
         margin-top: 35px;
     }
+}
 
-    /* Artigos */
-    article p {
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 310px;
-        padding: 15px;
-        text-align: justify;
-        text-indent: 20px;
-        font-size: 17px;
-        font-family: 'calibri';
-        background-color: white;
-        box-shadow: 4px 5px 5px #ff6f00;
-        border: solid 1px orange;
-        border-radius: 15px;
-    }
+/*------------------ Teste Vocacional ------------ */
+
+.titulo {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Trebuchet MS';
+    padding: 20px 25px 0px 25px;
+    width: 85%;
+    background-color: white;
+    box-shadow: 4px 5px 5px black;
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.perguntas p {
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 110%;
+}
+
+.perguntas {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 85%;
+    padding: 25px;
+    font-family: 'calibri';
+    background-color: white;
+    box-shadow: 4px 5px 5px black;
+    border: solid 1px black;
+    border-radius: 15px;
+}
+
+.perguntas h4 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.perguntas li {
+    font-size: 105%;
+    list-style: none;
+}
+
+.enviarteste {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    margin-top: 30px;
+    padding: 1em 2em;
+    font-size: 14px;
+    font-family: 'Trebuchet MS';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.enviarteste:hover {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    background-color: #ff6f00;
+    box-shadow: 0px 15px 20px #ff9442;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.enviarteste:active {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transform: translateY(-1px);
 }
