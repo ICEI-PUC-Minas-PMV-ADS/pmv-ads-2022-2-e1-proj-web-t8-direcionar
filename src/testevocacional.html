@@ -1,25 +1,283 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Teste vocacional</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
-<body>
-       <!-- cabeçalho -->
+
+<body class="container">
+    <!-- cabeçalho -->
     <header>
-        <div class="logo"><img src="img/logo2.png" alt="Logo Direcionar"> <h1>Direcionar</h1> </div>
-        <ul>    
+        <div class="logo"><img src="img/logo2.png" alt="Logo Direcionar">
+            <h1>Direcionar</h1>
+        </div>
+        <ul>
             <li> <a href="index.html" target="blank" class="botao"> Home </a></li>
             <li> <a href="sobre.html" target="blank" class="botao"> Sobre </a></li>
         </ul>
     </header>
-    
+
+    <!---- perguntas --->
+    <div class="content">
+
+        <div class="titulo">
+            <h1> Teste Vocacional</h1><br>
+        </div>
+        <form name="questionario" method="get" action="script.js">
+            <div class="perguntas">
+                <p> Para cada questão, escolha apenas a alternativa com a qual você mais se identifica.</p>
+
+                <div id="pergunta-1">
+                    <h4>1. Quando faz um trabalho em grupo, você é aquele(a) que:</h4>
+
+                    <input id="resposta-a1" type="radio" name="pergunta1" value=1> Quer ir direto ao ponto. <br>
+
+                    <input id="resposta-b1" type="radio" name="pergunta1" value=1> Analisa bem o escopo o
+                    trabalho antes de propor ações. <br>
+                    <input id="resposta-c1" type="radio" name="pergunta1" value=1> Assegura que o grupo está
+                    seguindo todas as instruções. <br>
+                    <input id="reposta-d1" type="radio" name="pergunta1" value=1> Propõe uma apresentação
+                    surpreendente ou tocante. <br>
+                    <input id="resposta-e1" type="radio" name="pergunta1" value=1> Discute as idéias com o
+                    grupo. <br>
+                    <input id="resposta-f1" type="radio" name="pergunta1" value=1> Conduz o grupo a agir em
+                    determinada direção. <br>
+                </div>
+
+                <div id="pergunta-2">
+                    <h4>2. Você imagina se destacar profissionalmente...</h4>
+
+                    <li><input id="resposta-a2" type="radio" name="pergunta2" value=1> Pela sua objetividade.</li>
+                    <li><input id="resposta-b2" type="radio" name="pergunta2" value=1> Pela sua ótima capacidade
+                        de análise.</li>
+                    <li><input id="resposta-c2" type="radio" name="pergunta2" value=1> Pela sua excelência em
+                        estruturar processos.</li>
+                    <li><input id="reposta-d2" type="radio" name="pergunta2" value=1> Por propor novas formas de
+                        fazer as coisas pelo seu senso estético aguçado.</li>
+                    <li><input id="resposta-e2" type="radio" name="pergunta2" value=1> Pelas suas ótimas
+                        habilidades de comunicação.</li>
+                    <li><input id="resposta-f2" type="radio" name="pergunta2" value=1> Por ser bastante
+                        determinado.</li>
+                </div>
+
+                <div id="pergunta-3">
+                    <h4>3. Você gosta mais de atividades que envolvam...</h4>
+
+                    <li><input id="resposta-a3" type="radio" name="pergunta3" value=1> Máquinas atividade
+                        corporal, alimentos, plantas ou animais.</li>
+                    <li><input id="resposta-b3" type="radio" name="pergunta3" value=1> Pelsquisa diagnóstico ou
+                        crítica.</li>
+                    <li><input id="resposta-c3" type="radio" name="pergunta3" value=1> Planejamento ordenação ou
+                        cálculo.</li>
+                    <li><input id="reposta-d3" type="radio" name="pergunta3" value=1> Criação, expressão ou
+                        beleza.</li>
+                    <li><input id="resposta-e3" type="radio" name="pergunta3" value=1> Relacionamento, cuidado ou
+                        mediação interpessoal.</li>
+                    <li><input id="resposta-f3" type="radio" name="pergunta3" value=1> Estratégia, compra e venda.
+                    </li>
+                </div>
+
+                <div id="pergunta-4">
+                    <h4>4. Em uma discussão, você:</h4>
+
+                    <li><input id="resposta-a4" type="radio" name="pergunta4" value=1> Procura encerrar o assunto
+                        e partir logo para a ação.</li>
+                    <li><input id="resposta-b4" type="radio" name="pergunta4" value=1> Analisa a situação e avalia
+                        quais atitudes podem ser tomadas.</li>
+                    <li><input id="resposta-c4" type="radio" name="pergunta4" value=1> Levanta todos os pontos,
+                        buscando ser prudente na sua posição.</li>
+                    <li><input id="reposta-d4" type="radio" name="pergunta4" value=1> Sente o clima e tende a
+                        agir mais pela emoção que pela razão.</li>
+                    <li><input id="resposta-e4" type="radio" name="pergunta4" value=1> Tenta chegar em uma solução
+                        que seja boa pra todo mundo.</li>
+                    <li><input id="resposta-f4" type="radio" name="pergunta4" value=1> O mais importante para mim
+                        não fazer as pessoas ao meu redor felizes.</li>
+                </div>
+
+                <div id="pergunta-5">
+                    <h4>5. Seus amigos te descreveriam como uma pessoa...
+                    </h4>
+
+                    <li><input id="resposta-a5" type="radio" name="pergunta5" value=1> Realista.</li>
+                    <li><input id="resposta-b5" type="radio" name="pergunta5" value=1> Intelectual.</li>
+                    <li><input id="resposta-c5" type="radio" name="pergunta5" value=1> Cautelosa.</li>
+                    <li><input id="reposta-d5" type="radio" name="pergunta5" value=1> Sensível.</li>
+                    <li><input id="resposta-e5" type="radio" name="pergunta5" value=1> Empática.</li>
+                    <li><input id="resposta-f5" type="radio" name="pergunta5" value=1> Persuasiva</li>
+                </div>
+
+                <div id="pergunta-6">
+                    <h4>6. O emprego ideal é aquele no qual você:</h4>
+
+                    <li><input id="resposta-a6" type="radio" name="pergunta6" value=1> Pode “coloca a mão na
+                        massa”.</li>
+                    <li><input id="resposta-b6" type="radio" name="pergunta6" value=1> Aprende muito.</li>
+                    <li><input id="resposta-c6" type="radio" name="pergunta6" value=1> Traz Segurança.</li>
+                    <li><input id="reposta-d6" type="radio" name="pergunta6" value=1> Surpreende ou emociona as
+                        pessoas.</li>
+                    <li><input id="resposta-e6" type="radio" name="pergunta6" value=1> Contribui com a sociedade.
+                    </li>
+                    <li><input id="resposta-f6" type="radio" name="pergunta6" value=1> Possui desafios.</li>
+                </div>
+
+                <div id="pergunta-7">
+                    <h4>7. O que você mais valoriza?</h4>
+
+                    <li><input id="resposta-a7" type="radio" name="pergunta7" value=1> Os fatos.</li>
+                    <li><input id="resposta-b7" type="radio" name="pergunta7" value=1> O estudo e a
+                        reflexão.</li>
+                    <li><input id="resposta-c7" type="radio" name="pergunta7" value=1> A rotina e a
+                        precisão.</li>
+                    <li><input id="reposta-d7" type="radio" name="pergunta7" value=1> O prazer e as
+                        emoções.</li>
+                    <li><input id="resposta-e7" type="radio" name="pergunta7" value=1> O direito e bem
+                        estar de todos.</li>
+                    <li><input id="resposta-f7" type="radio" name="pergunta7" value=1> O sucesso e o
+                        poder.</li>
+                </div>
+
+                <div id="pergunta-8">
+                    <h4>8. De modo geral, você evita ou não gosta de:</h4>
+
+                    <li><input id="resposta-a8" type="radio" name="pergunta8" value=1> Interagir ou pensar
+                        demais.</li>
+                    <li><input id="resposta-b8" type="radio" name="pergunta8" value=1> Lidar com emoções
+                        ou assuntos superficiais.</li>
+                    <li><input id="resposta-c8" type="radio" name="pergunta8" value=1> Fazer algo sem ter
+                        manual ou explicação.</li>
+                    <li><input id="reposta-d8" type="radio" name="pergunta8" value=1> Seguir rotinas e
+                        regras.</li>
+                    <li><input id="resposta-e8" type="radio" name="pergunta8" value=1> Executar tarefas
+                        técnicas ou mecânicas.</li>
+                    <li><input id="resposta-f8" type="radio" name="pergunta8" value=1> Ser comandado.</li>
+                </div>
+
+                <div id="pergunta-9">
+                    <h4>9. O que mais te incomoda é quando as pessoas...</h4>
+
+                    <li><input id="resposta-a9" type="radio" name="pergunta9" value=1> Demoram muito pra tomar
+                        uma decisão.</li>
+                    <li><input id="resposta-b9" type="radio" name="pergunta9" value=1> Emitem opinião sem
+                        conhecer o assunto a fundo.</li>
+                    <li><input id="resposta-c9" type="radio" name="pergunta9" value=1> Burlam ou ignoram
+                        regras.</li>
+                    <li><input id="reposta-d9" type="radio" name="pergunta9" value=1> Esperam resultados
+                        diferentes fazendo tudo igual.</li>
+                    <li><input id="resposta-e9" type="radio" name="pergunta9" value=1> Não respeitam as
+                        outras.</li>
+                    <li><input id="resposta-f9" type="radio" name="pergunta9" value=1> Demonstram preguiça ou
+                        submissão.</li>
+                </div>
+
+                <div id="pergunta-10">
+                    <h4>10. Para você, um bom professor é aquele que...</h4>
+
+                    <li><input id="resposta-a10" type="radio" name="pergunta10" value=1> Dá a chance do aluno
+                        ter ou fazer suas experiências.</li>
+                    <li><input id="resposta-b10" type="radio" name="pergunta10" value=1> Estimulam o aluno a
+                        perguntaar e aprofundar conhecimentos.</li>
+                    <li><input id="resposta-c10" type="radio" name="pergunta10" value=1> Transmite o conteúdo
+                        completo, sem deixar nada pra trás</li>
+                    <li><input id="reposta-d10" type="radio" name="pergunta10" value=1> Ajuda a identificar os
+                        interesses e talentos de seus alunos.</li>
+                    <li><input id="resposta-e10" type="radio" name="pergunta10" value=1> Ensina a trabalhar em
+                        grupo.</li>
+                    <li><input id="resposta-f10" type="radio" name="pergunta10" value=1> Prepara para ser
+                        alguem no mercado de trabalho, não apenas mais um.</li>
+                </div>
+
+                <div id="pergunta-11">
+                    <h4> 11. Na sala de aula, você...</h4>
+
+                    <li><input id="resposta-a11" type="radio" name="pergunta11" value=1> Prefere atividades
+                        manuais.</li>
+                    <li><input id="resposta-b11" type="radio" name="pergunta11" value=1> Presta atenção e é
+                        estudioso.</li>
+                    <li><input id="resposta-c11" type="radio" name="pergunta11" value=1> É bem organizado.</li>
+                    <li><input id="reposta-d11" type="radio" name="pergunta11" value=1> Fica devaneando,
+                        desenhando ou escrevendo poesia.</li>
+                    <li><input id="resposta-e11" type="radio" name="pergunta11" value=1> Tenta ajudar os
+                        colegas a tirar dúvidas.</li>
+                    <li><input id="resposta-f11" type="radio" name="pergunta11" value=1> Costuma tomar a frente
+                        das coisas.</li>
+                </div>
+
+                <div id="pergunta-12">
+                    <h4>12. Com qual destas situações abaixo você se sente mais confortável?</h4>
+
+                    <li><input id="resposta-a12" type="radio" name="pergunta12" value=1> Instalar, massagear,
+                        cozinhar.</li>
+                    <li><input id="resposta-b12" type="radio" name="pergunta12" value=1> Ler um livro
+                        científico.</li>
+                    <li><input id="resposta-c" type="radio" name="pergunta12" value=1>Fazer um orçamento ou
+                        planejamento de um projeto.</li>
+                    <li><input id="reposta-d" type="radio" name="pergunta12" value=1>Fazer aula de música,
+                        desenho ou teatro.</li>
+                    <li><input id="resposta-e" type="radio" name="pergunta12" value=1>Engajar-se em um
+                        trabalho voluntário.</li>
+                    <li><input id="resposta-f" type="radio" name="pergunta12" value=1>Virar representante de
+                        classe.</li>
+                </div>
+
+                <div id="pergunta-13">
+                    <h4>13. Nos seus relacionamentos, você costuma ser:</h4>
+
+                    <li><input id="resposta-a" type="radio" name="pergunta13" value=1>Honesto quando
+                        solicitado.</li>
+                    <li><input id="resposta-b" type="radio" name="pergunta13" value=1>Ponderado e criterioso
+                        nas suas escolhas.</li>
+                    <li><input id="resposta-c" type="radio" name="pergunta13" value=1>Cuidadoso com o que
+                        fala.</li>
+                    <li><input id="reposta-d" type="radio" name="pergunta13" value=1>Sensível ou despojado.
+                    </li>
+                    <li><input id="resposta-e" type="radio" name="pergunta13" value=1>Empático e acolhedor.
+                    </li>
+                    <li><input id="resposta-f" type="radio" name="pergunta13" value=1>Autoritário ou sedutor.
+                    </li>
+                </div>
+
+                <div id="pergunta-14">
+                    <h4>14. Qual palavra mais combina com você?</h4>
+
+                    <li><input id="resposta-a" type="radio" name="pergunta14" value=1>Razão.</li>
+                    <li><input id="resposta-b" type="radio" name="pergunta14" value=1>Investigação.</li>
+                    <li><input id="resposta-c" type="radio" name="pergunta14" value=1>Disciplina.</li>
+                    <li><input id="reposta-d" type="radio" name="pergunta14" value=1>Imaginação.</li>
+                    <li><input id="resposta-e" type="radio" name="pergunta14" value=1>Colaboração.</li>
+                    <li><input id="resposta-f" type="radio" name="pergunta14" value=1>Ambição.</li>
+                </div>
+
+                <div id="pergunta-15">
+                    <h4>15. Com qual frase você mais se identifica?</h4>
+
+                    <li><input id="resposta-a" type="radio" name="pergunta15" value=1>Uma grama de ação vale
+                        uma tonelada de teoria. (Friedrich Engels)</li>
+                    <li><input id="resposta-b" type="radio" name="pergunta15" value=1>Existe apenas um bem, o
+                        saber, e apenas um mal, a ignorância. (Sócrates)</li>
+                    <li><input id="resposta-c" type="radio" name="pergunta15" value=1>Mais vale um pássaro
+                        namão do que dois voando.</li>
+                    <li><input id="reposta-d" type="radio" name="pergunta15" value=1>A sensibilidade e a
+                        imaginação conservam a mocidade imortal da alma. (Anne Louise)</li>
+                    <li><input id="resposta-e" type="radio" name="pergunta15" value=1>Ser empático é ver o
+                        mundo com os olhos do outro e não ver o nosso mundo refletido nos olhos dele.
+                        (Carl
+                        Rogers)</li>
+                    <li><input id="resposta-f" type="radio" name="pergunta15" value=1>Lute com determinação,
+                        abrace a vida com paixão, perca com classe e vença com ousadia, porque o
+                        mundo
+                        pertence a quem se atreve e a vida é muito bela para ser insgnificante. (Charles Chaplin)</li>
+                </div>
+                <input type="submit" onclick="capturar()" value="enviar" class="enviarteste">
+        </form>
+    </div>
+    </div>
     <!-- rodapé -->
-    <footer class="footer-sobre">
+    <footer class="footer-index">
         Copyright &copy;2022 Direcionar
     </footer>
 </body>
