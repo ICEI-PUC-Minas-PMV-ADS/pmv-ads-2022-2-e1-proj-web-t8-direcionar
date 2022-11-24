@@ -227,6 +227,13 @@ article p {
     font-family: 'Trebuchet MS';
 }
 
+@media (max-width: 450px){
+    .sobre {
+        margin-top: 100px;
+        width: 75%;
+        padding: 20px;
+    }
+}
 
 /* ------------ Reponsividade index ------------*/
 @media (max-width: 780px) {
@@ -390,4 +397,27 @@ article p {
 .enviarteste:active {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     transform: translateY(-1px);
+}
+
+@media (max-width: 430px){
+
+    .titulo {
+        margin-top: 30px;
+    }
+
+    .perguntas {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        padding: 25px;
+        width: 80%;
+    }
+
+    .titulo {
+        width: 80%;
+    }
+
+    .perguntas h4 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
 }
