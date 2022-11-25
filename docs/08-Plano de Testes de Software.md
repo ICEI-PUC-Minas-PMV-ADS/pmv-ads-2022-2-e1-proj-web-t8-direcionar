@@ -3,9 +3,13 @@
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
 Os requisitos para realização dos testes de software são:
+<br>
 ● Site publicado na Internet
+<br>
 ● Navegador da Internet - Chrome, Firefox ou Edge
+<br>
 ● Conectividade de Internet para acesso às plataformas (APISs)
+<br>
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
  
 ## Ferramentas de Testes (Opcional)
