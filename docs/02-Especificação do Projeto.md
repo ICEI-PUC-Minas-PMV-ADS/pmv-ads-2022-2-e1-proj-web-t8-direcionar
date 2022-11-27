@@ -80,8 +80,8 @@ Através das definições abaixo, serão apresentados tais requisitos.
 |-------|--------------------------------------------------------------------------------------------------------------|-----------|
 |RNF-001| Ao concluir o questionário, o site deverá dar uma resposta em no máximo 1 minuto.                            | MÉDIA     | 
 |RNF-002| O site deve ser publicado em um ambiente acessível publicamente na Internet GitHub Pages.                    |  ALTA     | 
-|RNF-004| O site deve ter bom nível de contraste entre os elementos da tela em conformidade                            |  ALTA     | 
-|RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA     |
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade                            |  ALTA     | 
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA     |
 
 ## Restrições
 
