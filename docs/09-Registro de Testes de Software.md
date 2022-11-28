@@ -16,6 +16,13 @@ Ps: Teste feito em tela de smarthphone 16:9
 
 ![Capturar](https://user-images.githubusercontent.com/113618051/204167192-e8ebb6f2-f7ce-4fef-8b0e-273c90b27bfd.JPG)
 
+
+## CT - 04 Apresentar um resultado final no final do teste (Sucesso) 
+
+
+![image](https://user-images.githubusercontent.com/113618051/204169607-b6e0334c-3dcc-479c-aeb6-291233f14672.png)
+
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
