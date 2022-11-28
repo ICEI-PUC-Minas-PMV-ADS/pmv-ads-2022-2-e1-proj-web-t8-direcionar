@@ -7,7 +7,10 @@
 
 
 
-## CT - 02 
+## CT - 02 Apresentar informações claras e consisas (Sucesso) 
+
+![image](https://user-images.githubusercontent.com/113618051/204166963-0ed937d5-bf38-448b-b7e2-4831f770351f.png)
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
