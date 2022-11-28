@@ -11,6 +11,10 @@
 
 ![image](https://user-images.githubusercontent.com/113618051/204166963-0ed937d5-bf38-448b-b7e2-4831f770351f.png)
 
+## CT - 03 Checkbox funcionando e respondendo de acordo com a vontade do usuário. (Sucesso) 
+
+![Capturar](https://user-images.githubusercontent.com/113618051/204167192-e8ebb6f2-f7ce-4fef-8b0e-273c90b27bfd.JPG)
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
