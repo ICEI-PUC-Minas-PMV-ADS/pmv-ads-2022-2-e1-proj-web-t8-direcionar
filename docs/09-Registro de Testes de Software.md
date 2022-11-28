@@ -9,6 +9,9 @@
 
 ## CT - 02 Apresentar informações claras e consisas (Sucesso) 
 
+
+Ps: Teste feito em tela de smarthphone 16:9 
+
 ![image](https://user-images.githubusercontent.com/113618051/204166963-0ed937d5-bf38-448b-b7e2-4831f770351f.png)
 
 ## CT - 03 Checkbox funcionando e respondendo de acordo com a vontade do usuário. (Sucesso) 
