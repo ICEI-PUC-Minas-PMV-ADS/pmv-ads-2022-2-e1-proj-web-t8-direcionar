@@ -6,11 +6,9 @@
 ![a161aeb7-95aa-4b20-a463-18c3fb3f6ba0](https://user-images.githubusercontent.com/113618051/204166797-fc0c0174-1bf2-413c-8b7f-6e390b3f3210.jpg)
 
 
-
+Ps: Teste feito em tela de smarthphone 16:9 
 ## CT - 02 Apresentar informações claras e consisas (Sucesso) 
 
-
-Ps: Teste feito em tela de smarthphone 16:9 
 
 ![image](https://user-images.githubusercontent.com/113618051/204166963-0ed937d5-bf38-448b-b7e2-4831f770351f.png)
 
