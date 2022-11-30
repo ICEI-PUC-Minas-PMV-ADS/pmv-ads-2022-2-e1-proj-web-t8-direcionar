@@ -421,7 +421,6 @@ article p {
 }
 
 .questaoanterior:hover {
-    color: black;
     background-color: #ff6f00;
     transform: translateY(-3px);
 }
@@ -439,7 +438,6 @@ article p {
 }
 
 .proximaquestao:hover {
-    color: black;
     background-color: #ff6f00;
     transform: translateY(-3px);
 }
@@ -447,12 +445,9 @@ article p {
 .enviarteste {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     margin-top: 20px;
-    margin-left: 20px;
-    padding: 1em 2em;
-    font-size: 14px;
+    padding: 0.5em 1em;
     font-family: 'Trebuchet MS';
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-weight: bold;
     color: white;
     background-color: black;
