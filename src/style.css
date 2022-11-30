@@ -14,20 +14,19 @@ span {
     display: none;
     margin-top: auto;
     margin-bottom: auto;
-
 }
 
 ul {
     display: flex;
     list-style: none;
-    margin-right: 5px;
+    margin-right: 70px;
     padding-left: 10px;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 .logo {
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 70px;
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
@@ -59,6 +58,18 @@ body {
     margin: 0px;
 }
 
+@keyframes transicao {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .titulos {
     padding-bottom: 60px;
 }
@@ -82,7 +93,7 @@ body {
 /* Botões cabeçalho */
 .botao {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    color: white;
+    color: black;
     background-color: #ff6f00;
     border-radius: 15px;
     box-shadow: 1px 2px 3px black;
@@ -95,9 +106,9 @@ body {
 
 .botao:hover {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    color: black;
+    color: white;
     background-color: #ff6f00;
-    border-radius: 15px;
+    border-radius: 45px;
     cursor: pointer;
 }
 
@@ -205,7 +216,7 @@ article p {
     box-shadow: 0px -2px 4px black;
     font-size: 15px;
     text-align: center;
-    display:none;
+    display: none;
 }
 
 /*------------------sobre---------------------*/
@@ -340,7 +351,7 @@ article p {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Trebuchet MS';
-    padding: 20px 25px 0px 25px;
+    padding: 20px 20px 0px 20px;
     width: 85%;
     background-color: white;
     box-shadow: 4px 5px 5px black;
@@ -351,17 +362,39 @@ article p {
 .perguntas p {
     margin-top: 10px;
     text-align: justify;
-    text-indent: 20px;
     font-size: 110%;
 }
 
-.perguntas {
+.perguntas h4 {
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+#pergunta-1 { 
+    margin-top: 10px;
+    width: 85%;
+    padding: 20px;
+    font-family: 'calibri';
+    border-radius: 15px;
+}
+
+#pergunta-2, #pergunta-3, #pergunta-4, #pergunta-5, #pergunta-6, #pergunta-7, #pergunta-8, 
+#pergunta-9, #pergunta-10, #pergunta-11, #pergunta-12, #pergunta-13, #pergunta-14{ 
+    margin-top: 10px;
+    width: 85%;
+    padding: 20px;
+    font-family: 'calibri';
+    border-radius: 15px;
+    display: none;
+}
+
+.perguntas { 
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     width: 85%;
-    padding: 25px;
+    padding: 20px;
     font-family: 'calibri';
     background-color: white;
     box-shadow: 4px 5px 5px black;
@@ -369,20 +402,52 @@ article p {
     border-radius: 15px;
 }
 
-.perguntas h4 {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    font-size: 110%;
+.buttons {
+    justify-content: space-around;   
+    margin-top: 20px; 
 }
 
-.perguntas li {
-    font-size: 105%;
-    list-style: none;
+.questaoanterior {
+    padding: 0.5em 1em;
+    font-family: 'Trebuchet MS';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.questaoanterior:hover {
+    color: black;
+    background-color: #ff6f00;
+    transform: translateY(-3px);
+}
+
+.proximaquestao {
+    padding: 0.5em 1em;
+    font-family: 'Trebuchet MS';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.proximaquestao:hover {
+    color: black;
+    background-color: #ff6f00;
+    transform: translateY(-3px);
 }
 
 .enviarteste {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
     padding: 1em 2em;
     font-size: 14px;
     font-family: 'Trebuchet MS';
