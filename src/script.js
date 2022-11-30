@@ -1,6 +1,6 @@
-var resp_num = [{resp_1:''},{resp_2:''}, {resp_3:''}, {resp_4:''}, {resp_5:''}, 
-                {resp_6:''}, {resp_7:''}, {resp_8:''}, {resp_9:''}, {resp_10:''}, 
-                {resp_11:''}, {resp_12:''}, {resp_13:''}, {resp_14:''}];
+var resp_num = [{ resp_1: '' }, { resp_2: '' }, { resp_3: '' }, { resp_4: '' }, { resp_5: '' },
+{ resp_6: '' }, { resp_7: '' }, { resp_8: '' }, { resp_9: '' }, { resp_10: '' },
+{ resp_11: '' }, { resp_12: '' }, { resp_13: '' }, { resp_14: '' }];
 
 var resultado = '';
 
@@ -27,8 +27,8 @@ function capturar() {
     resp_13 = document.querySelector('input[name="pergunta13"]:checked').value;
     resp_14 = document.querySelector('input[name="pergunta14"]:checked').value;
 
-    for (var cont = 0; cont < 1;)  {
-        
+    for (var cont = 0; cont < 1;) {
+
         if (resp_1 === 'a') {
             resp_a++;
         }
@@ -47,7 +47,7 @@ function capturar() {
         else if (resp_1 === 'f') {
             resp_f++;
         }
-        
+
         if (resp_2 === 'a') {
             resp_a++;
         }
@@ -297,39 +297,50 @@ function capturar() {
 
         cont++;
 
-        if(resp_a > resp_b & resp_a > resp_c & resp_a > resp_d & resp_a > resp_e & resp_a > resp_f) {
+        if (resp_a > resp_b & resp_a > resp_c & resp_a > resp_d & resp_a > resp_e & resp_a > resp_f) {
             resultado = "resposta1";
-            console.log (resultado);
+            console.log(resultado);
         }
         else if (resp_b > resp_a & resp_b > resp_c & resp_b > resp_d & resp_b > resp_e & resp_b > resp_f) {
             resultado = "resposta2";
-            console.log (resultado);
+            console.log(resultado);
         }
         else if (resp_c > resp_a & resp_c > resp_b & resp_c > resp_d & resp_c > resp_e & resp_c > resp_f) {
             resultado = "resposta3";
-            console.log (resultado);
+            console.log(resultado);
         }
         else if (resp_d > resp_a & resp_d > resp_b & resp_d > resp_c & resp_d > resp_e & resp_d > resp_f) {
             resultado = "resposta4";
-            console.log (resultado);
+            console.log(resultado);
         }
         else if (resp_e > resp_a & resp_e > resp_b & resp_e > resp_c & resp_e > resp_d & resp_e > resp_f) {
             resultado = "resposta5";
-            console.log (resultado);
+            console.log(resultado);
         }
         else if (resp_f > resp_a & resp_f > resp_b & resp_f > resp_c & resp_f > resp_d & resp_f > resp_e) {
             resultado = "resposta6";
-            console.log (resultado);
+            console.log(resultado);
         }
-
-        // alert (resultado);
-    };  
+    };
     document.getElementById(resultado).style.display = 'block';
     document.getElementById('questionario').style.display = 'none';
     document.getElementById('footer-index').style.display = 'none';
     document.getElementById('footer-3').style.display = 'block';
-    // alert (resp_a, resp_b, resp_c, resp_d, resp_e, resp_f);
-    // console.log(resp_a, resp_b, resp_c, resp_d, resp_e, resp_f);
-    // document.getElementById('resposta1').style.display = 'block';
-    // document.getElementById('questionario').style.display = 'none';
-}    
+
+}
+var pergunta = 'pergunta-1';
+function proximaquestao(id) {
+    document.getElementById(id).style.display = 'block';
+    document.getElementById(pergunta).style.display = 'none';
+    console.log(id);
+    console.log(pergunta);
+    pergunta = id;
+}
+
+function questaoanterior(id) {
+    document.getElementById(id).style.display = 'block';
+    document.getElementById(pergunta).style.display = 'none';
+    console.log(id);
+    console.log(pergunta);
+    pergunta = id;
+}
