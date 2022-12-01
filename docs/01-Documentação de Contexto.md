@@ -18,15 +18,12 @@ Como objetivos específicos:
 
 Implementar um teste vocacional.
 
-
 ## Justificativa
 
 Analisando uma pesquisa realizada pela Universidade de Morumbi em 2013, notou-se que quase metade dos alunos no último ano do Ensino Médio não escolheram a profissão que querem seguir, e dos que escolheram, 54% não permaneceram no curso escolhido.
 A partir disso, observa-se a dificuldade e o problema que é causado, gerando insatisfação, ansiedade e dúvida, em um dos anos mais importantes na vida dos jovens.
 
-
 ## Público-Alvo
 
 O projeto visa ser viável a todos os públicos, pois é focado na reconhecimento do perfil do interessado.
 Porém, temos uma maior procura de jovens entre 17 e 23, que estão no último ano do Ensino Médio ou que acabaram de se formar.
-Então, estabelecemos que a criação do canal será com foco nesse público jovem, com informações direcionadas para os mesmos.
