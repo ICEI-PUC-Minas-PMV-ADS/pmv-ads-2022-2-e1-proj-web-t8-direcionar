@@ -9,35 +9,24 @@ Desta forma, faz-se necessário o autoconhecimento e o conhecimento da área de 
 ## Problema
 De acordo com o informado, o problema apresentado se trata da dificuldade dos jovens em escolherem um curso para seguir após a conclusão do Ensino Médio.
 
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-
 ## Objetivos
 
-O objetivo desse projeto é criar um website que ajude os jovens a encontrarem a melhor área de acordo com os aspectos em que ele se identifica.
-A partir do resultado do teste vocacional, iremos apresentar ao usuário informações acerca dos cursos dentro de sua área de aptidão e possibilidades de funções que ele pode exercer no mercado de trabalho.
+O objetivo desse projeto é criar um website  de teste vocacional que auxilie os jovens a conhecerem suas carcteristicas, de acordo com o perfil.
+A partir do resultado do teste vocacional, iremos apresentar ao usuário informações as caracteristicas de seu perfil.
 
 Como objetivos específicos:
 
 Implementar um teste vocacional.
 
-Apresentar ao usuário informações acerca dos cursos dentro de sua área de aptidão, a partir do teste vocacional realizado.
-
-
 
 ## Justificativa
 
 Analisando uma pesquisa realizada pela Universidade de Morumbi em 2013, notou-se que quase metade dos alunos no último ano do Ensino Médio não escolheram a profissão que querem seguir, e dos que escolheram, 54% não permaneceram no curso escolhido.
-A partir disso, observa-se a dificuldade e o problema que é causado, gerando insatisfação, depressão, ansiedade e dúvida, em um dos anos mais importantes na vida dos jovens.
-Além disso, os canais que atualmente fazem o processo de direcionamento vocacional, trata as informações dos alunos muito superficialmente, não analisando a fundo seus aspectos.
+A partir disso, observa-se a dificuldade e o problema que é causado, gerando insatisfação, ansiedade e dúvida, em um dos anos mais importantes na vida dos jovens.
 
 
 ## Público-Alvo
 
-O projeto visa ser viável a todos os públicos, pois é focado no direcionamento de carreira, no qual todos de qualquer idade podem se interessar.
+O projeto visa ser viável a todos os públicos, pois é focado na reconhecimento do perfil do interessado.
 Porém, temos uma maior procura de jovens entre 17 e 23, que estão no último ano do Ensino Médio ou que acabaram de se formar.
 Então, estabelecemos que a criação do canal será com foco nesse público jovem, com informações direcionadas para os mesmos.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
