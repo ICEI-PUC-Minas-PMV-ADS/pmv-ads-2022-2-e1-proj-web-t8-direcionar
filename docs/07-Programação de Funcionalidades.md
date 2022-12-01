@@ -4,6 +4,8 @@
 
 Será apresentado abaixo as informações acerca dos requisitos que foram atentidos.
 
+# Requisitos Funcionais
+
 ## 1. Pagina inicial (RF-001)
 
 ### 1.1 Requisitos atendidos:
@@ -17,6 +19,7 @@ Nesta pagina, o usuario conseguirá visualizar as orientações acerca do teste 
 * Style.css
 Nesta pagina, o usuario conseguirá visualizar as orientações acerca do teste vocacional.
 
+
 ## 2. Pagina de perguntas (RF-002)
 
 ### 2.1 Requisitos atendidos:
@@ -26,6 +29,7 @@ Nesta pagina, o usuario conseguirá visualizar as orientações acerca do teste 
 ### 2.2 Artefatos da funcionalidade:
 
 * testevocacional.html
+
 
 ## 3. Sequência de perguntas (RF-003)
 
@@ -37,6 +41,7 @@ Nesta pagina, o usuario conseguirá visualizar as orientações acerca do teste 
 
 * testevocacional.html
 
+
 ## 4. Teste vocacional (RF-004)
 
 ### 4.1 Requisitos atendidos:
@@ -46,6 +51,7 @@ Nesta pagina, o usuario conseguirá visualizar as orientações acerca do teste 
 ### 4.2 Artefatos da funcionalidade:
 
 * testevocacional.html
+
 
 ## 5. Responsividade (RF-005)
 
@@ -60,6 +66,8 @@ Nesta pagina, o usuario conseguirá visualizar as orientações acerca do teste 
 * sobre.html
 
 Paginas responsivas, podendo ser acessadas pelo celular.
+
+# Requisitos não funcionais
 
 
 
