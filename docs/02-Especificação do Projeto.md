@@ -4,7 +4,7 @@
 
 A ideia inicial do projeto surgiu primeiramente das dores dos membros dessa equipe, no qual muitos não estão em seu primeiro curso, ou não atuam na profissão. 
 Após essa análise interna, pesquisas foram realizadas para entender os números, ou seja, qual a porcentagem de estudantes no Brasil que passaram por dificuldades na escolha de sua faculdade. 
-Diante da dificuldade dos jovens em escolher qual faculdade cursar e qual profissão seguir, o foco do projeto é colher informações específicas e relevantes para identificação das aptidões dos estudantes.
+Diante da dificuldade dos jovens em escolher qual faculdade cursar e qual profissão seguir, o foco do projeto é colher informações específicas e relevantes para identificação do perfil dos usuarios.
 
 ## Personas
 
@@ -71,8 +71,8 @@ Através das definições abaixo, serão apresentados tais requisitos.
 |RF-001| A página inicial do projeto deverá ser clara, concisa e informativa.                                     |   ALTA   | 
 |RF-002| O site deverá ter um questionário (teste de aptidão).                                                    |   ALTA   |
 |RF-003| As perguntas devem ser exibidas, uma após a outra, com possibilidade de voltar a anterior.               |   ALTA   | 
-|RF-004| O site deve mostrar diversas opções de cursos após o resultado.                                          |   ALTA   | 
-|RF-005| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada.                  |   ALTA   | 
+|RF-004| O site deve mostrar o perfil do usuario após o resultado do teste.                                       |   ALTA   | 
+|RF-005| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada.                  |   ALTA   |
 
 ### Requisitos não Funcionais
 
