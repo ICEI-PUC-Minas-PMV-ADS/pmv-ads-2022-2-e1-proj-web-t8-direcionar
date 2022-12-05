@@ -216,7 +216,6 @@ article p {
     box-shadow: 0px -2px 4px black;
     font-size: 15px;
     text-align: center;
-    display: none;
 }
 
 /*------------------sobre---------------------*/
@@ -360,7 +359,7 @@ article p {
 }
 
 .perguntas p {
-    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: justify;
     font-size: 110%;
 }
@@ -370,7 +369,7 @@ article p {
     font-size: 110%;
 }
 
-#pergunta-1 { 
+#iniciarteste { 
     margin-top: 10px;
     width: 85%;
     padding: 20px;
@@ -378,7 +377,7 @@ article p {
     border-radius: 15px;
 }
 
-#pergunta-2, #pergunta-3, #pergunta-4, #pergunta-5, #pergunta-6, #pergunta-7, #pergunta-8, 
+#pergunta-1, #pergunta-2, #pergunta-3, #pergunta-4, #pergunta-5, #pergunta-6, #pergunta-7, #pergunta-8, 
 #pergunta-9, #pergunta-10, #pergunta-11, #pergunta-12, #pergunta-13, #pergunta-14{ 
     margin-top: 10px;
     width: 85%;
@@ -407,6 +406,11 @@ article p {
     margin-top: 20px; 
 }
 
+.iniciarteste {
+    margin-top: 20px;
+    text-align: center;
+}
+
 .questaoanterior {
     padding: 0.5em 1em;
     font-family: 'Trebuchet MS';
@@ -426,6 +430,7 @@ article p {
 }
 
 .proximaquestao {
+    margin-top: 20px;
     padding: 0.5em 1em;
     font-family: 'Trebuchet MS';
     text-transform: uppercase;
@@ -474,25 +479,27 @@ article p {
 
 @media (max-width: 430px){
 
-    .titulo {
-        margin-top: 30px;
-    }
-
-    .perguntas {
-        margin-top: 30px;
-        margin-bottom: 50px;
-        padding: 25px;
-        width: 80%;
-    }
-
-    .titulo {
-        width: 80%;
-    }
-
     .perguntas h4 {
-        margin-top: 30px;
+        font-size: 100%;
         margin-bottom: 10px;
     }
+    
+    #iniciarteste, #pergunta-1, #pergunta-2, #pergunta-3, #pergunta-4, #pergunta-5, #pergunta-6, #pergunta-7, #pergunta-8, 
+    #pergunta-9, #pergunta-10, #pergunta-11, #pergunta-12, #pergunta-13, #pergunta-14{ 
+        width: 95%;
+        padding: 5px;
+    }
+    
+    .perguntas { 
+        margin-top: 30px;
+        width: 85%;
+        padding: 10px;
+    }
+
+    .titulo {
+        margin-top: 30px;
+        width: 80%;
+    } 
 }
 
 /* Respostas */
@@ -512,6 +519,15 @@ article p {
     display: none;
 }
 
+@media (max-width: 430px) {
+    #resposta1, #resposta2, #resposta3, #resposta4, #resposta5, #resposta6 {
+
+    width: 85%;
+    padding: 10px;
+    display: none;
+    }
+}
+
 #resposta1 h3, #resposta2 h3, #resposta3 h3, #resposta4 h3, #resposta5 h3, #resposta6 h3{
     font-size: 150%;
 }
@@ -521,11 +537,4 @@ article p {
     text-align: justify;
     text-indent: 20px;
     font-size: 120%;
-}
-@media (max-width: 430px){
-    #resposta1, #resposta2, #resposta3, #resposta4, #resposta5, #resposta6 {
-        width: 80%;
-        padding: 25px;
-        display: none;
-    }
 }
