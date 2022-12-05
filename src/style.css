@@ -62,9 +62,11 @@ body {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
@@ -250,7 +252,7 @@ article p {
     font-family: 'Trebuchet MS';
 }
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
     .sobre {
         margin-top: 70px;
         width: 75%;
@@ -268,13 +270,13 @@ article p {
     }
 
     .titulo2 {
-        
+
         font-size: 22px;
         margin: 20px 0px 30px 70px;
     }
 
     main h3 {
-        font-size: 22px;  
+        font-size: 22px;
     }
 
     .botao2 {
@@ -311,7 +313,7 @@ article p {
 
     .titulo1 {
         font-size: 42px;
-        padding: 50px 0px 0px 30px; 
+        padding: 50px 0px 0px 30px;
     }
 
     .titulo2 {
@@ -369,7 +371,7 @@ article p {
     font-size: 110%;
 }
 
-#iniciarteste { 
+#iniciarteste {
     margin-top: 10px;
     width: 85%;
     padding: 20px;
@@ -377,8 +379,20 @@ article p {
     border-radius: 15px;
 }
 
-#pergunta-1, #pergunta-2, #pergunta-3, #pergunta-4, #pergunta-5, #pergunta-6, #pergunta-7, #pergunta-8, 
-#pergunta-9, #pergunta-10, #pergunta-11, #pergunta-12, #pergunta-13, #pergunta-14{ 
+#pergunta-1,
+#pergunta-2,
+#pergunta-3,
+#pergunta-4,
+#pergunta-5,
+#pergunta-6,
+#pergunta-7,
+#pergunta-8,
+#pergunta-9,
+#pergunta-10,
+#pergunta-11,
+#pergunta-12,
+#pergunta-13,
+#pergunta-14 {
     margin-top: 10px;
     width: 85%;
     padding: 20px;
@@ -387,7 +401,7 @@ article p {
     display: none;
 }
 
-.perguntas { 
+.perguntas {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -402,8 +416,8 @@ article p {
 }
 
 .buttons {
-    justify-content: space-around;   
-    margin-top: 20px; 
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
 .iniciarteste {
@@ -412,6 +426,7 @@ article p {
 }
 
 .questaoanterior {
+    margin-bottom: 15px;
     padding: 0.5em 1em;
     font-family: 'Trebuchet MS';
     text-transform: uppercase;
@@ -431,6 +446,7 @@ article p {
 
 .proximaquestao {
     margin-top: 20px;
+    margin-bottom: 15px;
     padding: 0.5em 1em;
     font-family: 'Trebuchet MS';
     text-transform: uppercase;
@@ -450,6 +466,7 @@ article p {
 .enviarteste {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     margin-top: 20px;
+    margin-bottom: 15px;
     padding: 0.5em 1em;
     font-family: 'Trebuchet MS';
     text-transform: uppercase;
@@ -477,34 +494,14 @@ article p {
     transform: translateY(-1px);
 }
 
-@media (max-width: 430px){
-
-    .perguntas h4 {
-        font-size: 100%;
-        margin-bottom: 10px;
-    }
-    
-    #iniciarteste, #pergunta-1, #pergunta-2, #pergunta-3, #pergunta-4, #pergunta-5, #pergunta-6, #pergunta-7, #pergunta-8, 
-    #pergunta-9, #pergunta-10, #pergunta-11, #pergunta-12, #pergunta-13, #pergunta-14{ 
-        width: 95%;
-        padding: 5px;
-    }
-    
-    .perguntas { 
-        margin-top: 20px;
-        width: 85%;
-        padding: 10px;
-    }
-
-    .titulo {
-        margin-top: 30px;
-        width: 80%;
-    } 
-}
-
 /* Respostas */
 
-#resposta1, #resposta2, #resposta3, #resposta4, #resposta5, #resposta6 {
+#resposta1,
+#resposta2,
+#resposta3,
+#resposta4,
+#resposta5,
+#resposta6 {
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -519,11 +516,21 @@ article p {
     display: none;
 }
 
-#resposta1 h3, #resposta2 h3, #resposta3 h3, #resposta4 h3, #resposta5 h3, #resposta6 h3{
+#resposta1 h3,
+#resposta2 h3,
+#resposta3 h3,
+#resposta4 h3,
+#resposta5 h3,
+#resposta6 h3 {
     font-size: 150%;
 }
 
-#resposta1 p, #resposta2 p, #resposta3 p, #resposta4 p, #resposta5 p, #resposta6 p{
+#resposta1 p,
+#resposta2 p,
+#resposta3 p,
+#resposta4 p,
+#resposta5 p,
+#resposta6 p {
     margin-top: 15px;
     text-align: justify;
     text-indent: 20px;
@@ -531,19 +538,75 @@ article p {
 }
 
 @media (max-width: 430px) {
-    #resposta1, #resposta2, #resposta3, #resposta4, #resposta5, #resposta6 {
-    margin-top: 20px;
-    width: 85%;
-    padding: 10px;
-    display: none;
+
+    .titulo {
+        margin-top: 30px;
+        width: 80%;
+        font-size: 95%;
     }
-    
-    #resposta1 h3, #resposta2 h3, #resposta3 h3, #resposta4 h3, #resposta5 h3, #resposta6 h3{
+
+    .perguntas {
+        margin-top: 20px;
+        width: 85%;
+        padding: 10px;
+    }
+
+    .perguntas h4 {
+        font-size: 110%;
+        margin-bottom: 10px;
+    }
+
+    #resposta1,
+    #resposta2,
+    #resposta3,
+    #resposta4,
+    #resposta5,
+    #resposta6 {
+        margin-top: 20px;
+        width: 85%;
+        padding: 10px;
+        display: none;
+    }
+
+    #resposta1 h3,
+    #resposta2 h3,
+    #resposta3 h3,
+    #resposta4 h3,
+    #resposta5 h3,
+    #resposta6 h3 {
         font-size: 140%;
     }
 
-    #resposta1 p, #resposta2 p, #resposta3 p, #resposta4 p, #resposta5 p, #resposta6 p{
-    margin-top: 10px;
-    font-size: 110%;
+    #resposta1 p,
+    #resposta2 p,
+    #resposta3 p,
+    #resposta4 p,
+    #resposta5 p,
+    #resposta6 p {
+        margin-top: 10px;
+        font-size: 110%;
+    }
+
+    #iniciarteste,
+    #pergunta-1,
+    #pergunta-2,
+    #pergunta-3,
+    #pergunta-4,
+    #pergunta-5,
+    #pergunta-6,
+    #pergunta-7,
+    #pergunta-8,
+    #pergunta-9,
+    #pergunta-10,
+    #pergunta-11,
+    #pergunta-12,
+    #pergunta-13,
+    #pergunta-14 {
+        width: 95%;
+        padding: 5px;
+    }
+
+    .proximaquestao {
+        margin-top: 10px;
     }
 }
