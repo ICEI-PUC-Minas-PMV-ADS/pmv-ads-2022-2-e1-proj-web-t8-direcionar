@@ -33,54 +33,79 @@
             <h3>Realista</h3>
             <p>É objetivo, lógico e evita situações ambíguas. Possui interesse em atividades físicas, mecânicas que
                 exijam destreza e força ou em atividades manuais como construção, reparo, culinária e cirurgia.
-                Gosta de
-                resolver problemas concretos, com resultados tangíveis. Valoriza, acima de tudo, os fatos.</p>
+                Gosta de resolver problemas concretos, com resultados tangíveis. Valoriza, acima de tudo, os fatos. <br>
+            <p><b>Cursos indicados para você:</b> Agronomia, Educação Física, Engenharias (Aeronáutica, Ambiental,
+                Civil, Produção, Elétrica, Mecânica, Química) Gastronomia, Medicina, Veterinária, Radiologia, Zootecnia.</p>
+            </p>
         </div>
         <div id="resposta2">
             <h3>Investigativo</h3>
             <p>É analítico, curioso, autocentrado, podendo até aparentar certa frieza. Possui interesse em
-                atividades
-                acadêmicas, teóricas e/ou científicas. Com seu senso crítico aguçado, gosta de resolver problemas
-                abstratos que desafiam o intelecto. Valoriza o estudo, a pesquisa e a reflexão.</p>
+                atividades acadêmicas, teóricas e/ou científicas. Com seu senso crítico aguçado, gosta de resolver
+                problemas
+                abstratos que desafiam o intelecto. Valoriza o estudo, a pesquisa e a reflexão. <br>
+            <p><b>Cursos indicados para você:</b> Biomedicina, Ciência da Computação, Filosofia, Física,
+                Química, Sistemas de Informação, Teologia.</p>
+            </p>
         </div>
         <div id="resposta3">
             <h3>Convencional</h3>
             <p>É organizado, detalhista, conservador e disciplinado. Respeita regras e é considerado confiável.
                 Possui
                 interesse em atividades que exijam planejamento, método, ou envolvam medição, cálculo e dinheiro.
-                Prefere resolver problemas estruturados. Valoriza a rotina e a segurança.</p>
+                Prefere resolver problemas estruturados. Valoriza a rotina e a segurança. <br>
+            <p><b>Cursos indicados para você:</b> Ciências Atuárias, Ciências Contábeis, Economia, Gestão Financeira,
+                Logística, Matemática, Secretariado.</p>
+            </p>
         </div>
         <div id="resposta4">
             <h3>Artístico</h3>
             <p>É intuitivo, sonhador, aberto a experiências e foge das convenções sociais. Possui percepção aguçada
-                e
-                interesse em atividades que envolvam imaginação, beleza, produção artística ou inovação. Gosta de se
+                e interesse em atividades que envolvam imaginação, beleza, produção artística ou inovação. Gosta de se
                 expressar através de meios como música, teatro, dança, desenho, poesia e canto. Valoriza o prazer e
-                as
-                emoções.</p>
+                as emoções. <br>
+            <p><b>Cursos indicados para você:</b> Arquitetura, Artes Cênicas, Artes Plásticas, Cinema, Desenho
+                Industrial,
+                Design de Games, Design Gráfico, Fotografia, Moda, Multimídia, Música, Publicidade e Propaganda.</p>
+            </p>
         </div>
         <div id="resposta5">
             <h3>Social</h3>
             <p>É comunicativo, interativo, solidário e bom mediador de conflitos. Possui interesse em atender
-                demandas
-                sociais, mobilizar, ensinar, tratar e orientar pessoas. Valoriza o direito e o bem estar alheio,
-                assim
-                como o trabalho em equipe.</p>
+                demandas sociais, mobilizar, ensinar, tratar e orientar pessoas. Valoriza o direito e o bem estar
+                alheio, assim como o trabalho em equipe. <br>
+            <p><b>Cursos indicados para você:</b> Ciências Sociais, Direito, Enfermagem, Farmácia, Fisioterapia,
+                Fonoaudiologia,
+                Jornalismo, Letras, Medicina, Nutrição, Odontologia, Pedagogia, Psicologia, Relações Públicas, Serviço
+                Social.</p>
+            </p>
         </div>
         <div id="resposta6">
             <h3>Empreendedor</h3>
             <p>É um líder natural: enérgico, persuasivo, competitivo, corajoso e determinado. Gosta de situações
-                novas e
-                desafiadoras. Possui interesse em atividades administrativas e comerciais. Valoriza o sucesso e
-                poder.
+                novas e desafiadoras. Possui interesse em atividades administrativas e comerciais. Valoriza o sucesso e
+                poder. <br>
+            <p><b>Cursos indicados para você:</b> Administração de empresas, Comércio Exterior, Gestão de Recursos
+                Humanos,
+                Hotelaria e Turismo, Relações Internacionais.</p>
             </p>
         </div>
 
         <form id="questionario" method="dialog">
             <div class="perguntas">
-                <p> Para cada questão, escolha apenas a alternativa com a qual você mais se identifica. Este é um teste
-                    dentre outros existentes na área, sendo seu resultado relativo à sua autopercepção e autocrítica
-                    momentânea.</p>
+                <div id="iniciarteste">
+                    <p> Para cada questão, escolha apenas a alternativa com a qual você mais se identifica. Este é um
+                        teste
+                        dentre outros existentes na área, sendo seu resultado relativo à sua autopercepção e autocrítica
+                        momentânea.</p>
+                    <p>O teste associa cursos com as suas habilidades pessoais através de questionamentos simples e
+                        intuitivos sobre a sua vida.</p>
+
+                    <div class="iniciarteste">
+                        <input type="button" onclick="proximaquestao('pergunta-1')" value="Iniciar Teste"
+                            class="proximaquestao">
+                    </div>
+                </div>
 
                 <div id="pergunta-1">
                     <h4>1. Quando faz um trabalho em grupo, você é aquele(a) que:</h4>
@@ -99,8 +124,9 @@
                     <input id="resposta-f1" type="radio" name="pergunta1" value=f required> Conduz o grupo a agir em
                     determinada direção. <br>
                     <div class="buttons">
-                    <input type="button" onclick="proximaquestao('pergunta-2')" value="Próxima" class="proximaquestao">
-                </div>
+                        <input type="button" onclick="proximaquestao('pergunta-2')" value="Próxima"
+                            class="proximaquestao">
+                    </div>
                 </div>
 
 
@@ -410,13 +436,10 @@
         </form>
     </div>
     </div>
-
-
     <!-- rodapé -->
-    <footer class="footer-index" id="footer-index">
+    <footer class="footer-2" id="footer-2">
         Copyright &copy;2022 Direcionar
     </footer>
-
     <footer class="footer-3" id="footer-3">
         Copyright &copy;2022 Direcionar
     </footer>
