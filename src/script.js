@@ -326,9 +326,8 @@ function capturar() {
     document.getElementById('questionario').style.display = 'none';
     document.getElementById('footer-index').style.display = 'none';
     document.getElementById('footer-3').style.display = 'block';
-
 }
-var pergunta = 'pergunta-1';
+var pergunta = 'iniciarteste';
 function proximaquestao(id) {
     document.getElementById(id).style.display = 'block';
     document.getElementById(pergunta).style.display = 'none';
