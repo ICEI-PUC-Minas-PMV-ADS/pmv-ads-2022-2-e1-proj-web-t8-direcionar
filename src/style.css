@@ -491,7 +491,7 @@ article p {
     }
     
     .perguntas { 
-        margin-top: 30px;
+        margin-top: 20px;
         width: 85%;
         padding: 10px;
     }
@@ -519,15 +519,6 @@ article p {
     display: none;
 }
 
-@media (max-width: 430px) {
-    #resposta1, #resposta2, #resposta3, #resposta4, #resposta5, #resposta6 {
-
-    width: 85%;
-    padding: 10px;
-    display: none;
-    }
-}
-
 #resposta1 h3, #resposta2 h3, #resposta3 h3, #resposta4 h3, #resposta5 h3, #resposta6 h3{
     font-size: 150%;
 }
@@ -537,4 +528,22 @@ article p {
     text-align: justify;
     text-indent: 20px;
     font-size: 120%;
+}
+
+@media (max-width: 430px) {
+    #resposta1, #resposta2, #resposta3, #resposta4, #resposta5, #resposta6 {
+    margin-top: 20px;
+    width: 85%;
+    padding: 10px;
+    display: none;
+    }
+    
+    #resposta1 h3, #resposta2 h3, #resposta3 h3, #resposta4 h3, #resposta5 h3, #resposta6 h3{
+        font-size: 140%;
+    }
+
+    #resposta1 p, #resposta2 p, #resposta3 p, #resposta4 p, #resposta5 p, #resposta6 p{
+    margin-top: 10px;
+    font-size: 110%;
+    }
 }
