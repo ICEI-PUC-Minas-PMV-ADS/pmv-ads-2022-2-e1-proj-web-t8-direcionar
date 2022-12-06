@@ -25,7 +25,7 @@ Ps: Teste feito em tela de smarthphone 16:9
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Nos testes realizados todos os requisitos se mostraram aptos, problemas relacionados a responsividade foram bem solucionados e a resposta do JS não apresenta nenhuma falha ou bug.
 
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
