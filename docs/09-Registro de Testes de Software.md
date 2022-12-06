@@ -20,7 +20,7 @@ Ps: Teste feito em tela de smarthphone 16:9
 ## CT - 04 Apresentar um resultado final no final do teste (Sucesso) 
 
 
-![image](https://user-images.githubusercontent.com/113618051/204169607-b6e0334c-3dcc-479c-aeb6-291233f14672.png)
+![image](https://user-images.githubusercontent.com/113618051/205786918-60c80bd4-a5d6-41b3-a3d3-4bc7dd0fd653.png)
 
 
 ## Avaliação
