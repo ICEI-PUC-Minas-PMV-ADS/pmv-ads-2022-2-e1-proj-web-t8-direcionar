@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Direcionar</title>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script type="text/javascript" src="botoes.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
@@ -20,8 +23,18 @@
             <li> <a href="sobre.html" target="_self" class="botao"> Sobre </a></li>
             <li> <a href="testevocacional.html" target="_self" class="botao"> Teste vocacional </a></li>
         </ul>
+        <span class="material-symbols-outlined" id="menu" onclick="menu('navbar')">
+            menu
+        </span>
     </header>
+    <nav class="navbar_none" id="navbar">
+        <ul>
+            <li> <a href="sobre.html" target="_self" class="botaonav"> Sobre </a></li>
+            <li> <a href="testevocacional.html" target="_self" class="botaonav"> Teste vocacional </a></li>
+        </ul>
+    </nav>
     <!-- Títulos -->
+    <div id="content">
     <main>
         <div class="titulos">
             <h1 class="titulo1"> Qual Carreira<br>combina comigo? </h1>
@@ -73,11 +86,10 @@
             </article>
         </div>
     </main>
-
+</div>
     <!-- rodapé -->
     <footer class="footer-index">
         Copyright &copy;2022 Direcionar
     </footer>
 </body>
-
 </html>
