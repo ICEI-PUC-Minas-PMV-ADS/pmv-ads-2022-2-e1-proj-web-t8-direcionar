@@ -318,18 +318,18 @@ article p {
     }
 
     .logo {
-        margin: auto 0px auto 5px;
+        margin: auto 0px auto 0px;
         display: flex;
     }
 
     .logo h1 {
-        font-size: 23px;
-        margin: auto 0px auto 6px;
+        font-size: 22px;
+        margin: auto 0px auto 5px;
     }
 
     img {
-        width: 44px;
-        height: 44px;
+        width: 42px;
+        height: 42px;
     }
 
     .titulo1 {
