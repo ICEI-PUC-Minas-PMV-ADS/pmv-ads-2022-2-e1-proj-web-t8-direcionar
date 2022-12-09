@@ -65,7 +65,7 @@ nav li:hover {
 header ul {
     display: flex;
     list-style: none;
-    margin-right: 70px;
+    margin-right: 15px;
     padding-left: 10px;
     margin-top: auto;
     margin-bottom: auto;
@@ -304,32 +304,33 @@ article p {
 /* ------------ Reponsividade index & Header ------------*/
 @media (max-width: 620px) {
 
-    #menu {
+    /* #menu {
+        display: none;
         color: #ff6f00;
         cursor: pointer;
         margin-top: auto;
         margin-bottom: auto;
-        display: none;
+        display: block;
         margin-right: 25px;
-    }
+    } */
 
     header {
         padding: 2px;
     }
 
     .logo {
-        margin: auto 0px auto 0px;
+        margin: auto 0px auto 15px;
         display: flex;
     }
 
     .logo h1 {
         font-size: 23px;
-        margin: auto 0px auto 5px;
+        margin: auto 0px auto 6px;
     }
 
     img {
-        width: 42px;
-        height: 42px;
+        width: 44px;
+        height: 44px;
     }
 
     .titulo1 {
