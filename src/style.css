@@ -309,12 +309,8 @@ article p {
         cursor: pointer;
         margin-top: auto;
         margin-bottom: auto;
-        display: block;
-        margin-right: 25px;
-    }
-
-    header ul {
         display: none;
+        margin-right: 25px;
     }
 
     header {
